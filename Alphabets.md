@@ -17,7 +17,7 @@ Capital 'A' is 65 -- or 41 in hex (right?) -- 'B' is 66, and so on.
 
 The first really successful standard for this -- still with us today, after 55 years (1963) -- is ASCII. 
 
-## {data-background="DHSIimg/ASCII-Table.png"}
+## {data-background="img/ASCII-Table.png"}
 
 
 ::: notes :::
@@ -68,7 +68,7 @@ In all the fonts in the world, there are only a tiny handful that represent all 
 
 ## Unicode support
 
-## {data-background="DHSIimg/UnicodeGrow2b.png"}
+## {data-background="img/UnicodeGrow2b.png"}
 
 
 ::: notes :::
