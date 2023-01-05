@@ -97,15 +97,15 @@ The original markup language standards SGML, HTML, and early XML) were designed 
 ### **HTML** -- that is, prose text for publishing, in a website, in an ebook, etc.:
 
 <html>
-	<body>
-		<section id="pub-607-fundamentals" class="level1">
-			<h1>PUB 607 Fundamentals</h1>
-		<section id="on-file-management" class="level2">
-			<h2>On File Management</h2>
-			<p>A file is a <strong>metaphor</strong> for a structured bundle of data in a computer. Files do not actually exist in your computer, or on its hard drive (which is not in fact hard). It’s a metaphor that shapes a set of behaviours around how we deal with files. The metaphor is closely related to the idea of “documents,” but not exactly equivalent.</p>
-			<p>The file idea, more or less, dates to the late 1960s, early 1970s, and was popularized through the spread of the Unix operating system (which is still with us). We still think largely in terms of files, although alternative metaphors (or patterns) are becoming more common: streams; queries; things pulled together on the fly out of databases.</p>
-			<p>Files are typically organized in <strong>Filesystems</strong>; the	one we all take for granted is the “hierarchical file system,” where there is a hierarchical set of “folders” that uniquely locate and organize files. It seems natural because it’s been with us for decades, but it’s not natural, and it does NOT have to be this way.</p>
-			...
+  <body>
+    <section id="pub-607-fundamentals" class="level1">
+      <h1>PUB 607 Fundamentals</h1>
+      <section id="on-file-management" class="level2">
+        <h2>On File Management</h2>
+        <p>A file is a <strong>metaphor</strong> for a structured bundle of data in a computer. Files do not actually exist in your computer, or on its hard drive (which is not in fact hard). It’s a metaphor that shapes a set of behaviours around how we deal with files. The metaphor is closely related to the idea of “documents,” but not exactly equivalent.</p>
+        <p>The file idea, more or less, dates to the late 1960s, early 1970s, and was popularized through the spread of the Unix operating system (which is still with us). We still think largely in terms of files, although alternative metaphors (or patterns) are becoming more common: streams; queries; things pulled together on the fly out of databases.</p>
+        <p>Files are typically organized in <strong>Filesystems</strong>; the	one we all take for granted is the “hierarchical file system,” where there is a hierarchical set of “folders” that uniquely locate and organize files. It seems natural because it’s been with us for decades, but it’s not natural, and it does NOT have to be this way.</p>
+...
 
 
 ### SVG, Scalable Vector Graphics, a web-portable graphics standard:
