@@ -104,7 +104,7 @@ The original markup language standards SGML, HTML, and early XML) were designed 
         <h2>On File Management</h2>
         <p>A file is a <strong>metaphor</strong> for a structured bundle of data in a computer. Files do not actually exist in your computer, or on its hard drive (which is not in fact hard). It’s a metaphor that shapes a set of behaviours around how we deal with files. The metaphor is closely related to the idea of “documents,” but not exactly equivalent.</p>
         <p>The file idea, more or less, dates to the late 1960s, early 1970s, and was popularized through the spread of the Unix operating system (which is still with us). We still think largely in terms of files, although alternative metaphors (or patterns) are becoming more common: streams; queries; things pulled together on the fly out of databases.</p>
-        <p>Files are typically organized in <strong>Filesystems</strong>; the	one we all take for granted is the “hierarchical file system,” where there is a hierarchical set of “folders” that uniquely locate and organize files. It seems natural because it’s been with us for decades, but it’s not natural, and it does NOT have to be this way.</p>
+        <p>Files are typically organized in <strong>Filesystems</strong>; the  one we all take for granted is the “hierarchical file system,” where there is a hierarchical set of “folders” that uniquely locate and organize files. It seems natural because it’s been with us for decades, but it’s not natural, and it does NOT have to be this way.</p>
 ...
 
 
@@ -158,39 +158,39 @@ The original markup language standards SGML, HTML, and early XML) were designed 
 ONIX, bibliographic data for the book supply chain
 
 <ONIXMessage release="3.0">
-	<Product>
-		<ProductIdentifier>
-			<ProductIDType>15</ProductIDType>
-			<IDValue>9789999999991</IDValue>
-		</ProductIdentifier>
-		<DescriptiveDetail>
-			<TitleDetail>
-				<TitleType>01</TitleType>
-				<TitleElement>
-					<TitleElementLevel>01</TitleElementLevel>
-					<TitleText>My Dreary Life</TitleText>
-					<Subtitle>A Meandering Tale</Subtitle>
-				</TitleElement>
-			</TitleDetail>
-			<Contributor>
-				<SequenceNumber>1</SequenceNumber>
-				<ContributorRole>A01</ContributorRole>
-				<PersonName>Jane Smith</PersonName>
-			</Contributor>
-			<Language>
-				<LanguageRole>01</LanguageRole>
-				<LanguageCode>eng</LanguageCode>
-			</Language>
-			<Extent>
-				<ExtentType>10</ExtentType>
-				<ExtentValue>512</ExtentValue>
-				<ExtentUnit>03</ExtentUnit>
-			</Extent>
-			<Subject>
-				<MainSubject/>
-				<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
-				<SubjectCode>LIT014000</SubjectCode>
-				</Subject>
+  <Product>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999999991</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>My Dreary Life</TitleText>
+          <Subtitle>A Meandering Tale</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Jane Smith</PersonName>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>10</ExtentType>
+        <ExtentValue>512</ExtentValue>
+        <ExtentUnit>03</ExtentUnit>
+      </Extent>
+      <Subject>
+        <MainSubject/>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>LIT014000</SubjectCode>
+        </Subject>
         ...
 
 ### Subtitles for video:
@@ -237,16 +237,16 @@ ONIX, bibliographic data for the book supply chain
 ### MathML:
 
   <math xmlns="http://www.w3.org/1998/Math/MathML">
-  	<mi>a</mi>
-  	<msup>
-  		<mi>x</mi>
-  		<mn>2</mn>
-  	</msup>
-  	<mo>+</mo>
-  	<mi>b</mi>
-  	<mi>x</mi>
-  	<mo>+</mo>
-  	<mi>c</mi>
+    <mi>a</mi>
+    <msup>
+      <mi>x</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>+</mo>
+    <mi>b</mi>
+    <mi>x</mi>
+    <mo>+</mo>
+    <mi>c</mi>
   </math>
 
 
