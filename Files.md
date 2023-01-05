@@ -92,7 +92,7 @@ In 2023, we live in a world where these two traditions co-exist, but only intera
 
 The original markup language standards SGML, HTML, and early XML) were designed for publishing; they were concerned with marking up texts for processing, printing, searching, and distribution online. But the "generalized" idea (the G in SGML, and the X in XML) means these ways of treating text become useful as notation systems to describe data structures.
 
-'''
+```
 
 ### **HTML** -- that is, prose text for publishing, in a website, in an ebook, etc.:
 
@@ -286,7 +286,7 @@ ONIX, bibliographic data for the book supply chain
   </part>
 </score-partwise>
 
-'''
+```
 
 ## Formatting
 
