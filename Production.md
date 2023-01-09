@@ -1,4 +1,6 @@
-# Alphabets, ASCII, and Unicode
+# Digital Text Production
+
+## Alphabets, ASCII, and Unicode
 
 "In the beginning was the *Word*"
 
@@ -93,3 +95,24 @@ You do not need to go look up the "character entity" replacement strings for the
 
 E.g. you do not have to write `&mdash;` or U+2014 or `&#x2014;` (although these mostly work), you can just type an em-dash. On the Mac, shift-option-hyphen.
 :::
+
+
+
+- idea of markup 
+  compositors markup
+  generic markup
+  hierarchical markup and modern MLs
+  parsing and tree structures
+  specific MLs for specific purposes
+  accessibility and single-source
+- markdown, revisited
+  the trouble with XML
+- HTML, CSS
+- pandoc  (i.e., "transcend syntax" -- is this the right place for it?)
+- ebooks
+  as websites in envelopes
+  standards
+  InDesign and
+  reading systems
+  EPUB and Kindle
+  a11y in

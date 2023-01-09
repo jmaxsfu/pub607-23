@@ -73,11 +73,11 @@ Text can be edited; it can be parsed; it can be processed in ways that are incre
 
 Text is special because we know how to process it, and so making computers process text is an extension of our own understanding, as opposed to something unique that has to be invented (like Photoshop or something).
 
-### A tale of two paradigms
+## A tale of two paradigms
 
 Interestingly, the history of how we think about text in computers has two parallel traditions, very different in approach. These intersect here and there, but are almost two distinct *paradigms*.
 
-The first tradition starts with text files, and builds structure into these files in order to deal with things like formatting, metadata, and so on. This tradition comes out of old-school typesetting and leads through Standard Generalized Markup Language (1980s) to eXtensible Markup Language (XML) and HyperText Markup Language (HTML) in the 90s and beyond. It is the approach that underlies the Web and most "digital publishing" formats.
+The first tradition starts with text files, and builds structure into these files in order to deal with things like formatting, metadata, and so on. This tradition comes out of old-school typesetting and leads through Standard Generalized Markup Language (SGML, from the 1980s), HyperText Markup Language (HTML, early 1990s), to eXtensible Markup Language (XML, from the late 1990s). It is the approach that underlies the Web and most "digital publishing" formats.
 
 In this way of thinking, the text and its innate structures are of paramount importance, and things like formatting and layout are secondary; they need to be layered onto the underlying text structures. This approach is extremely well suited to accessibility, as a single text can be manifest in different formats for different audiences or different contexts.
 
@@ -90,7 +90,13 @@ In 2023, we live in a world where these two traditions co-exist, but only intera
 
 ## The Elusive Goal of Interoperability 
 
-The original markup language standards SGML, HTML, and early XML) were designed for publishing; they were concerned with marking up texts for processing, printing, searching, and distribution online. But the "generalized" idea (the G in SGML, and the X in XML) means these ways of treating text become useful as notation systems to describe data structures.
+The goal of **interoperability** -- or, to put it conversely: avoiding **lock-in** or forced dependence on a particular vendor or platform -- has been approached in a couple of different keys. Foremost is the idea of an open, explicitly described file format, as opposed to a file format whose internal structure is only known or fully understood to the vendor. 
+
+Word's .doc and .docx formats, for instance, are well enough known for file translators to exist (you can import Word files into InDesign, for instance), but the file format suits Microsoft's business interests above all. The insides of an .indd file are almost completely opaque.
+
+Text files are an excellent choice for open file formats, because text files are, at least theoretically, readably by human beings. As a result, lots of open formats are at their base levels text files. More sophisticated structures are built up within them using standardized conventions.
+
+The original markup language standards SGML, HTML, and early XML) were designed for publishing; they were concerned with marking up texts for processing, printing, searching, and distribution online. But the "generalized" idea (the G in SGML) means these ways of treating text become useful as notation systems to describe data.
 
 ```
 
@@ -301,6 +307,8 @@ A stylesheet like this produces a "templated" design -- as opposed to being hand
 This formal separation of the text (and its named structures) and the formatting rules is one example of the concept of "separation of concerns," which is a more general design pattern. We have had separation of concerns in publishing since Gutenberg put moveable type into practice, and the abstract idea of a text -- in the form of a **marked up** manuscript that compositors would use in typesetting -- came to drive formatting. 
 
 This separation of the *platonic* ideal of the text from any particular printed instance of it has both delighted and vexed scholars and critics ever since. At this very point, when the text becomes *abstract and mutable*, it also becomes capable of *fixity and durability* over centuries owing to its production and distribution in mass quantities.
+
+Ironically, the Desktop Publishing tradition, embodied today in InDesign, runs completely counter to this idea... in InDesign, format *is* structure, not the other way around.
 
 ## Markup and markdown
 
