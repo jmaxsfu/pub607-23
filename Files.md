@@ -81,7 +81,7 @@ The first tradition starts with text files, and builds structure into these file
 
 In this way of thinking, the text and its innate structures are of paramount importance, and things like formatting and layout are secondary; they need to be layered onto the underlying text structures. This approach is extremely well suited to accessibility, as a single text can be manifest in different formats for different audiences or different contexts.
 
-The second tradition, largely invented at Xerox PARC in the 1970s, makes page layout primary, and everything else is secondary. This tradition begins with "Desktop Publishing" (DTP) leading through word processors and software like PageMaker, QuarkXpress, and InDesign, and reaches its full express in the PDF -- which is a perfect virtual image of a page. This tradition has been dominant in publishing since around 1990, and it utterly replaced traditional typesetting. 
+The second tradition, largely invented at Xerox PARC in the 1970s, makes page layout primary, and everything else is secondary. This tradition begins with "Desktop Publishing" (DTP) leading through word processors and software like PageMaker, QuarkXpress, and InDesign, and reaches its full express in the PDF -- which is a perfect virtual image of a page. The goal is "WYSIWYG" -- *what you see is what you get* -- that what you see on the computer screen is what you'll get on the printed page. This tradition has been dominant in publishing since around 1990, and it utterly replaced traditional typesetting. 
 
 But the page-first paradigm presents all sorts of difficulties for multiple formats, and especially for accessibility, since the underlying text needs to be extracted from what the software is adapted to: page layout. 
 
@@ -310,11 +310,4 @@ This separation of the *platonic* ideal of the text from any particular printed 
 
 Ironically, the Desktop Publishing tradition, embodied today in InDesign, runs completely counter to this idea... in InDesign, format *is* structure, not the other way around.
 
-## Markup and markdown
-
-In the early 2000s, when blogging was in its early heyday, various people tried to build systems that allowed bloggers to *simply write*, without having to worry about HTML markup -- back in those days, most websites were built by hand-coding HTML. 
-
-There were a number of similar approaches, but one that seems to have won out is **markdown**, developed by John Gruber and Aaron Swartz. Markdown was designed as a super lightweight form of markup, where minimal markup cues are embedded as punctuation. Markdown, while visually minimal, is explicit and complete enough to be *unambiguously* transformed into HTML by a simple software routine. That means that markdown is an alternative form of markup that *does that same work* as HTML.
-
-Markdown caught on, and became embedded in lots of different web publishing systems. A host of software tools were developed to support it, and to allow writing, editing, previewing, converting, and so on. 
 
