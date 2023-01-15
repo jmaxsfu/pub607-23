@@ -162,7 +162,16 @@ If that's what's in an ebook, then is makes a certain amount of sense to develop
 
 One complication is that ebook reading systems often have very little in common with web browsers. While they do support HTML and CSS, their development often has much more to do with consolidating the market position of their parent companies than it does with creating a general-purpose content platform. DRM is only one part of this story.
 
-Helpfully, there is an open standard tool, built on top of standard web-browser technology, which bridges this divide somehwat: Thorium Reader is an open-source ebook reading system
+Helpfully, there is an open standard tool, built on top of standard web-browser technology, which bridges this divide somehwat: Thorium Reader is an open-source ebook reading system that is essentially the core of a web browser (Chrome, I think) wrapped in an e-reader interface. This has several advantages:
+
+1. it's not wrapped up inside some corporation's customer lock-in agenda;
+2. it's vastly easier to proof ebooks, because you don't have to "side-load" (which is code for "acquire by some means other than purchasing them from our store") the files;
+3. when the app gets an update, you just update the app; you don't have do buy a new device;
+4. the support for CSS is superior -- as is generally the case: web browsers have much better, newer, more robust support for the CSS specification. E-readers all have CSS limitations.
+
+
+
+
 
   reading systems
   EPUB and Kindle
