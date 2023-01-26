@@ -1,0 +1,110 @@
+## EBooks, finally
+
+EBooks are, as mentioned before, based on HTML. The structure of a standard EPUB file is essentially a website in an envelope. Inside the package is a collection of content (often chapter by chapter) in HTML files, a CSS stylesheet, whatever images are in the book, and a table of contents. There are a couple of other metadata files that help the software make sense of the book and what's in it, but it's a pretty simple standard.
+
+If that's what's in an ebook, then is makes a certain amount of sense to develop them like websites: that is, as collections of HTML and CSS -- rather than treating them as weird exports out of the print production process in InDesign (an approach which is actually super common). Because what's inside an ebook is a set of *text files*, it helps to treat them as such if we want to truly understand what's going on in there, and if we want to build them with precision.
+
+One complication is that ebook reading systems often have very little in common with web browsers. While they do support HTML and CSS, their development often has much more to do with consolidating the market position of their parent companies than it does with creating a general-purpose content platform. DRM is only one part of this story.
+
+Helpfully, there is an open standard tool, built on top of standard web-browser technology, which bridges this divide somehwat: Thorium Reader is an open-source ebook reading system that is essentially the core of a web browser (Chrome, I think) wrapped in an e-reader interface. This has several advantages:
+
+1. it's not wrapped up inside some corporation's customer lock-in agenda;
+2. it's vastly easier to proof ebooks, because you don't have to "side-load" (which is code for "acquire by some means other than purchasing them from our store") the files;
+3. when the app gets an update, you just update the app; you don't have do buy a new device;
+4. the support for CSS is superior -- as is generally the case: web browsers have much better, newer, more robust support for the CSS specification. E-readers all have CSS limitations.
+
+## About EPUB... and Kindle
+
+EPUB (version 3) is the industry/consortium-backed standard file format for ebooks. It is a well-evolved, open file format (based on HTML and CSS in a container) that is supported by all the main ebook systems out there: Kobo and Adobe and Thorium and a lot you've never heard of.
+
+What about Kindle? The answer, interestingly, is No. Amazon's Kindle does not support EPUB. Amazon, unsurprisingly, does things its own way... see Simon Rowberry's *Four Shades of Gray* for the story here. There have been a bunch of Kindle file formats over the years. Most of them have been fairly close to the EPUB standard of the day -- although Simon reports that the newest version deviates completely, eschewing XML-based representation *entirely*.
+
+So what good is a standard if the largest vendor doesn't support it?
+
+Good question. You should think long and hard about that question.
+
+In practice, though, Amazon supports EPUB from publishers. If a publisher provides an EPUB to Kindle, they convert it into whatever format is currently appropriate. So we don't worry *too* much about Amazon's internal standards being different (even if they are), because it's in Amazon's interested to maintain a client-facing interface that doesn't make it hard to deal with them.
+
+## EPUB authoring tools
+
+Because EPUB is a simple, open format, there are loads of tools that can produce it, edit it, and do things with it.
+
+So, you'll all be familiar with Adobe InDesign's ability to export to EPUB. There are online services that will convert MS Word files to EPUB. Apple's *Pages* word processor app will export to EPUB directly.
+
+There's a good reason to be wary of all of these, though... recall the simplicity of text files -- What you see is all there is -- compared with what's going on in DTP and word processor files, which promose What you see is what you get. 
+
+What you get -- when you export from a visual tool, is a translation of what you saw in the app. A translation based on some rules, that, given the many details that go into text and publication design, may or may not give you an EPUB that is faithful to what you started with.
+
+The real trouble is you have no way of knowing. You export from InDesign, and then open up the resulting EPUB in, say, Thorium Reader. You see some things that look right, and you see some things that look wrong. Why do they look wrong? It's not easy to tell.
+
+So you have to crack open the EPUB to find out what's going on and why you're not seeing what you were expecting. 
+
+There are several ways of cracking open an EPUB. You can do this literally... an EPUB file is *almost* exactly a .zip archive, so you can literally "unzip" it to reveal the folder full of content, stylesheets, and other bits and pieces.
+
+More commonly, people use an EPUB editor tool -- the most common ones seem to be *Sigil* and *Calibre*. These tools allow you to open an EPUB file intact, and dig through the HTML and CSS inside it, without actually taking it apart. This gives you the ability to effectively "debug" the EPUB file -- you can dig in to the parts where things aren't how you wanted them to be, and try to figure out what InDesign actually did in its export, and maybe to make some edits to fix it. It might be in the HTML that was generated; it might be in the CSS that was generated; either way, it will take some sleuthing.
+
+This, in John's humble opinion, is fool's work.
+
+If you will recall the point about text files: What you see is all there is. If we start with text files, where we can see exactly what is going on and exactly what we are doing, then we can then turn that into an EPUB -- which is simple: it just gathers up the HTML, CSS, images, and whatnot, and packages it in a folder with a bit of metadata. No weird conversions required.
+
+Furthermore, if we started our process with something elegantly simple like markdown, then the *conversion* process is simply between markdown and HTML, which is a perfect, unambiguous transformation -- and NOT a kinda-sorta-maybe translation, as it is between InDesign or Word and EPUB.
+
+## Accessibility in EBooks
+
+More importantly, if we're trying to export EPUBs from a tool like InDesign, the more complicated the original layouts, the more likely the EPUB is going to be a mess. This is because InDesign is a supremely sophisticated visual layout tool. It was designed to do that, and it has evolved over dozens of versions to do that extremely well. It was not designed to produce structured, HTML content; it does that as an afterthought. 
+
+So a simple, single-column non-illustrated novel might be a pretty simple export. It might come off unproblematically, especially if the designer was ruthlessly consistent with using named paragraph and character styles, which allows the export to do things consistently. But if the layout is more complicated; if there has been a lot of tweaking; if there are (god forbid) drop caps; then the export is more likely to be problematic, requiring more debugging afterward.
+
+The extreme end of this spectrum is the so-called "fixed-layout" EPUB, in which pains are taken to preserve the layout itself, so that page spreads stay put, nothing moves, and images and other elements can be precisely positioned, as if they were on paper. These things are a nightmare, and should, frankly, never be attempted by sane people. InDesign will export them for you if you ask. But frankly, if perfect layout is what's required, there's a mature, well-supported standard for that: PDF.
+
+This is *all about* accessibility. Consider, for a moment, trying to use screen-reader software to read your ebook. The screen reader software has to be able to navigate the layout, the typographic hierarchy, internal navigation, and body copy. 
+
+If the text is in a straight-up text format, like HTML, it is easy for it to do this (and especially easy if the HTML has been put together with just a smidge of forethought). The more complex the EPUB, though -- which will be because of the complexity of the starting documents -- the harder it will be for the screen reader.
+
+Once again, if we start from a solid foundation -- a text-based format where What you see is all there is -- then it is *trivially* easy to produce an accessible ebook. 
+
+Because back in the 1980s, when the original SGML specification was being designed and deliberated, accessibility was a key priority. The people who invented modern markup had accessibility in mind from the beginning.
+
+It's somewhat ironic that people thing they've invented the "born accessible" ebook in the 2020s; this was actually invented in the 1980s, and all we're doing is remembering how to do it today.
+
+## Producing EBooks 
+
+Let's begin with a source text. You could start with anything -- a typed manuscript, an OCR-ed text, a Project Gutenberg etext. 
+
+We'll begin by cleaning it up. We'll normalize it: make sure that things like paragraph breaks, spaces between sentences, and headings are presented as simply and consistently as possible. We'll want to make sure that there aren't any weird bits of quasi-formatting, like four spaces at the start of every paragraph, or all-caps standing in for headings.
+
+If we're working in plain text, in a decent text editor, we can use *regular-expression search-and-replace* to power through this editing process.
+
+Once we have a clean text, we can prepare it as a markdown document: marking things like different levels of headings, block quotations, bulleted and numbered lists, italicized phrases, and so on.
+
+We can then convert this to HTML for a quick check in our web browser -- recall that your web browser should do exactly what an ebook reader does, except better.
+
+We'll do our conversions with Pandoc. Pandoc has one zillion options, but its simplest possible invocation will transform our markdown file into HTML and let us look at it in a web browser
+
+   pandoc -s mybook.md -o mybook.html
+
+The resulting file (mybook.html) can now be opened up in Chrome or Firefox or whatever, and it will be all there. It'll be 16 point times with no typographic niceties, but it'll be all there, at least.
+
+To give it some style, we'll provide a stylesheet: a CSS stylesheet that defines some basics like typography, whitespace, indentation, line-length, and so on. Ideally, you'd have a CSS stylesheet already, one that defines "house style" (just like Jan Tschichold did for Penguin in the 1940s), but it's not so hard to start from scratch.
+
+We can let pandoc know about the stylesheet when we do our transformation:
+
+   pandoc -s -c houseStyles.css mybook.md -o mybook.html
+
+Now we look at it in Chrome, and it's a bit nicer. Maybe at this point we waste several hours going back and forth with fonts and line spacing (or maybe that's just me).
+
+This is fast work. You have the markdown source open in one window and the CSS stylesheet in another. You have Firefox open in a third window. You make a change in the source files; you re-run pandoc, and you re-load the page in Firefox. It is even possible to semi-automate that, just to save keystrokes.
+
+Once we have something that looks about right -- the typography is good, headings are the way we want them, images are properly placed -- we can tell pandoc to make an epub instead of a web page.
+
+   pandoc -s -c houseStyles.css mybook.md -o mybook.epub
+
+In serious production practice, we could be more explicit in how we instruct pandoc, but at its absolute simplest, that's all that's required.
+
+Now we have an epub file, which is harder to look at than the HTML file. You'll have to load the file into an ebook reading system -- the easiest is to use Thorium Reader (which is a web browser underneath); harder will be to copy the file onto your Kobo, or side-load it into your Kindle, however that works. 
+
+Of course you WILL ultimately proof your ebook in every reading system you can imagine anyone wanting to read it on, because that's how you learn exactly how much of your fancy CSS is supported by your 6-year old off-brand e-reader. Generally, the older the e-reader, the worse its CSS support is.
+
+And of course you'll also proof this in a screen-reader (again, Thorium Reader has this functionality, so it is your first destination), and see how much time you spent trying to make things *look* a particular way only to find out that it messes up the screen reader's ability to do the right thing!
+
+

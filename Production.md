@@ -148,31 +148,22 @@ For most intents and purposes, markdown can be used anywhere that HTML is needed
 
 ## Pandoc
 
-One of the key pieces of software we will use with markdown is Pandoc -- the "universal document converter." Pandoc is a simple, open-source tool that can take any structured content (or even semi-structured, with caveats), parse it, and re-create it in any other structured format. It was originally designed as a markdown-to-HTML conversion tool, but it has been generalized to work with dozens of different document formats. It is extremely high-quality software, and it is *exquisitely* well documented. I have often said that a close reading of the Pandoc documentation would constitute a whole course in document production.
+One of the key pieces of software we will use with markdown is Pandoc -- the "universal document converter." Pandoc is a simple, open-source tool that can take any structured content (or even semi-structured, with caveats), parse it, and re-create it in any other structured format. It was originally designed as a markdown-to-HTML conversion tool, but it has been generalized to work with dozens of different document formats. 
+
+Pandoc is extremely high-quality software, and it is *exquisitely* well documented. I have often said that a close reading of the Pandoc documentation would constitute a whole course in document production. Since you're currently taking a course in ebook production, it would be a good idea to at least familiarize yourself with Pandoc's incredibly well-written User's Guide: <https://pandoc.org/MANUAL.html>
+
+Pandoc, it must be said, has a command-line interface. That means you use it by typing commands into a command shell, like it was 1983 all over again. You have one of these, though: on your Mac, it's called "Terminal." On Windows, it's called "Powershell," because Power!
+
+I know, it's old, and it makes you feel like you're in an 80s movie. But the command-line interface actually really works incredibly well, especially for text processing, because it was invented for text processing. If you want to be one of the cool kids, you'll play with the preferences in your shell so that it's green type on a black background. Embrace your inner geek! 
+
+There's a cheat sheet for some useful commands that will help you get around and type useful things.
+
+
+
+
 
 
 - pandoc  (i.e., "transcend syntax" -- is this the right place for it?)
 
 
-## ebooks, finally
-
-EBooks are, as mentioned above, based on HTML. The structure of an EPUB file is basically like a website in an envelope. Inside the package is a collection of content (often chapter by chapter) in HTML files, a CSS stylesheet, whatever images are in the book, and a table of contents. There are a couple of other metadata files that help the software make sense of the book and what's in it, but it's a pretty simple standard.
-
-If that's what's in an ebook, then is makes a certain amount of sense to develop them like websites: that is, as collections of HTML and CSS -- rather than treating them as weird exports out of the print production process in InDesign (an approach which is actually super common). Because what's inside an ebook is a set of *text files*, it helps to treat them as such if we want to truly understand what's going on in there, and if we want to build them with precision.
-
-One complication is that ebook reading systems often have very little in common with web browsers. While they do support HTML and CSS, their development often has much more to do with consolidating the market position of their parent companies than it does with creating a general-purpose content platform. DRM is only one part of this story.
-
-Helpfully, there is an open standard tool, built on top of standard web-browser technology, which bridges this divide somehwat: Thorium Reader is an open-source ebook reading system that is essentially the core of a web browser (Chrome, I think) wrapped in an e-reader interface. This has several advantages:
-
-1. it's not wrapped up inside some corporation's customer lock-in agenda;
-2. it's vastly easier to proof ebooks, because you don't have to "side-load" (which is code for "acquire by some means other than purchasing them from our store") the files;
-3. when the app gets an update, you just update the app; you don't have do buy a new device;
-4. the support for CSS is superior -- as is generally the case: web browsers have much better, newer, more robust support for the CSS specification. E-readers all have CSS limitations.
-
-
-
-
-
-  reading systems
-  EPUB and Kindle
-  a11y in
+MORE?
