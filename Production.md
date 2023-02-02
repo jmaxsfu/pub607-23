@@ -113,7 +113,7 @@ In 1990, though, Tim Berners-Lee used SGML to create the markup language for his
 
 In 1997, a committee drew up a design for a "version 2.0" of SGML, written with the Internet in mind. It was a bit simpler, more streamlined, and did away with the need for *validation* (there weren't any lawyers on the committee). They might have called it SGML 2.0, but instead they thought it would sound better if they called it XML, because X is the sexiest of all letters, right?
 
-Right from the beginning, accessibility was a goal of SGML and XML. Because the markup defines the semantic structures of the text only, and keeps formatting processes separate and secondary, it is possible to have a single XML document that produces typeset print, braille, and mobile-phone versions -- by specifying different processing for the same source text.
+Right from the beginning, accessibility was a goal of SGML and XML (see, for instance, <https://www.w3.org/2000/10/DIAWorkshop/accesssep.html>). Because the markup defines the semantic structures of the text only, and keeps formatting processes separate and secondary, it is possible to have a single XML document that produces typeset print, braille, and mobile-phone versions -- by specifying different processing for the same source text.
 
 
 ## HTML, CSS
