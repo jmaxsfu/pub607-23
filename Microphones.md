@@ -4,17 +4,17 @@ categories: gear
 
 # Some Gear We Have On Hand
 
-- **4** [Shure SM58]() mics, cables (courtesy of the FCAT Dean's office)
+- **4** Shure SM58 mics, cables (courtesy of the FCAT Dean's office)
 
-- **4** [Zoom H4n Pro]() portable recorders (courtesy of the FCAT Dean's office)
+- **4** Zoom H4n Pro portable recorders (courtesy of the FCAT Dean's office)
 
-- **1** [CAD GXL1200 Condenser Mic]() (John's)
+- **1** CAD GXL1200 Condenser Mic (John's)
 
-- **1** M-Audio [FastTrack Pro USB Audio Interface]() (John's)
+- **1** M-Audio FastTrack Pro USB Audio Interface (John's)
 
-- **5** [XLR Cables]() to connect microphones (4 from the Dean's office, 1 is John's)
+- **5** XLR Cables to connect microphones (4 from the Dean's office, 1 is John's)
 
-- **4** [USB Cables](): USB Mini to connect Zoom H4n Pros to computer, and a USB B to connect the FastTrack Pro interface
+- **4** USB Cables: USB Mini to connect Zoom H4n Pros to computer, and a USB B to connect the FastTrack Pro interface
 
 
 Read more about them by clicking the links.
@@ -47,7 +47,7 @@ Because a condenser mic needs electricity, there has to be a source. Both the Zo
 
 John brought this one in. You can use it just like you do the Shure SM58, and see if you like the results. It's quite a bit more sensitive than an SM58, so it needs to be placed farther away if you're recording your voice -- a good trick is to mount it on a stand and point it at your forehead instead of your mouth, to avoid "Popping your Ps." (look it up!)
 
-![CAD GXL1200 mic](/CAD.jpg)
+![CAD GXL1200 mic](img/CAD.jpg)
 
 A condenser mic like this requires 48volts of "Phantom power" -- which is available on both the Zoom recorder and the FastTrack Pro Audio Interface... you just switch that on and it works.
 
@@ -65,7 +65,7 @@ It occurs to me that an SM58, being a very up-close-and-personal microphone, is 
 
 These are OLD tech, from the 1950s or 1960s, but they work really well. They are big, heavy, well-insulated three-wire cables with a big chunky three-pin connector. These have been the standard connection for microphones (and various other things) for 60+ years. 
 
-![XLR cable](/xlr.jpg)
+![XLR cable](img/xlr.jpg)
 
 What they do really well is provide a "balanced" electrical signal that is very impervious to interference (that is, noise) even over very long cables (up to 200 ft).
 
@@ -85,7 +85,7 @@ Alternatively, you can also use the H4n Pro as a direct, live USB Audio Interfac
 
 John brought in this old (2012 or so?) USB interface. 
 
-![FastTrack Pro Audio USB Interface](/fasttrack.jpg)
+![FastTrack Pro Audio USB Interface](img/fasttrack.jpg)
 
 It does PART of what the Zoom H4n does -- it takes [XLR Cables]() or regular old 1/4" audio cords and converts that to digital signals which then go via USB to your computer. This is the fundamental little box that makes digital audio recording possible. In professional studios, they have very big fancy ones; this is a very simple, cheap one. It has two inputs. 
 
