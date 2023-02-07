@@ -61,6 +61,24 @@ A dynamic mic like this works by being quite close to the sound source (see "eat
 
 It occurs to me that an SM58, being a very up-close-and-personal microphone, is probably a terrific **germ vector**. Best option would be for these mics to be used by one person only. But you can clean them pretty easily -- you can simply unscrew the ball-shaped cage and wash it. Here's the manufacturer's instructions: <https://service.shure.com/s/article/how-should-i-clean-my-microphone?language=en_US>
 
+# XLR Cables
+
+These are OLD tech, from the 1950s or 1960s, but they work really well. They are big, heavy, well-insulated three-wire cables with a big chunky three-pin connector. These have been the standard connection for microphones (and various other things) for 60+ years. 
+
+![XLR cable](/xlr.jpg)
+
+What they do really well is provide a "balanced" electrical signal that is very impervious to interference (that is, noise) even over very long cables (up to 200 ft).
+
+# Zoom H4n Pro Recorder
+
+The **Zoom H4n Pro** recorders are Hannah's favourite tool. They are a nice small handheld device with a LOT of flexibility. You can plug two external mics (like the [Shure SM58]()) into each one, plus they have their own stereo condenser mics built right in.
+
+They record onto an SD Card (John made sure each Zoom has an SD Card installed) which can record hours of audio.
+
+They run on two AA batteries, so you can take them to the beach and capture the sounds of seagulls -- and then dump the recording back to your computer by connecting one of the [USB Cables]().
+
+Alternatively, you can also use the H4n Pro as a direct, live USB Audio Interface between the microphone and your laptop -- if you're indoors, this might be better, because then you can use your computer screen instead of the tiny interface on the recorder, and you'll be able to see what you're doing.
+
 
 
 # FastTrack Pro Audio Interface
