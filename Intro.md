@@ -1,6 +1,5 @@
 # PUB 607 (2023): Digital Production Fundamentals
 
-## {}
 
 ## Course Schedule
 
@@ -21,7 +20,6 @@
 **Tues Apr 4** - Audio wrap-up time   
 **Thur Apr 6** - PUB 607 Show and Tell
 
-## {}
 
 ## Assignments
 
