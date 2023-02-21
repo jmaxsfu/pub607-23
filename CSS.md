@@ -1,9 +1,4 @@
----
-categories: ebooks, css
-...
-
-
-# CSS in less than a nutshell
+# A CSS Tutorial
 
 I couldn't find my good old (thin) CSS book, so I'm posting this instead... the smallest, shortest CSS primer you'll ever see.
 
