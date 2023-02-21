@@ -16,7 +16,7 @@ The **selector:**  specifies the thing that we're going to talk about. It can be
 
 		p
 
-It can also refer to specific kinds of those elements, where they have named **classes** (as in `<p class="whatever">. Or where they have a unique identifier:
+It can also refer to specific kinds of those elements, where they have named **classes** (as in `<p class="whatever">`. Or where they have a unique identifier:
 
 		p.whatever
 
