@@ -1,4 +1,4 @@
-## About 'Regular Expression' parsing
+# About 'Regular Expression' parsing
 
 Regular expressions refers to a tiny formal language for **describing** and then acting on (searching, replacing, etc.) regular patterns in text. It is the basis for all sorts of machine parsing of text.
 
@@ -21,7 +21,7 @@ Regex is in lots of other software, including:
 -   most every contemporary programming language/environment
 
 
-# Basic concepts
+## Basic concepts
 
 A "regular expression" represents a **pattern** in text, codified in a tiny formal language.
 
@@ -127,12 +127,12 @@ ALSO: Old text files -- such as those from Project Gutenberg -- split paragraphs
 
 Again, being mindful of these distinctions will help you figure out how to make your regex patterns do what you want them to do.
 
-# Learning Interactively
+## Learning Interactively
 
 https://regex101.com/ is a website that provides an interactive environment for building regexes and testing them.
 
-# Exercises and examples
+## Exercises and examples
 
-Try your skill with these [Regex Exercises]()... better still, try your skill at saying that five times fast.
+Try your skill with these [Regex Exercises](RegexExercises.md)... better still, try your skill at saying that five times fast.
 
 [^1]: See <https://en.wikipedia.org/wiki/Newline>
