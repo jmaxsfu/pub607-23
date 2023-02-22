@@ -19,6 +19,7 @@ The original markup language standards SGML, HTML, and early XML) were designed 
 
 ### SVG, Scalable Vector Graphics, a web-portable graphics standard:
 
+```
 <svg width="467" height="462">
   <rect x="80" y="60" width="250" height="250" rx="20"
       style="fill:#ff0000; stroke:#000000;stroke-width:2px;" />
@@ -29,10 +30,11 @@ The original markup language standards SGML, HTML, and early XML) were designed 
       style="fill:#00ff00; stroke:#0000cc; stroke-width:5px;
       fill-opacity:1.0;" />
 </svg>
-
+```
 
 ### RSS, or syndication feeds for podcasts, blogs, news headlines, etc:
 
+```
 <rss version="2.0">
   <channel>
     <title>Dafna's Zebra Podcast</title>
@@ -63,9 +65,11 @@ The original markup language standards SGML, HTML, and early XML) were designed 
     </item>
   </channel>
 </rss>
+```
 
-ONIX, bibliographic data for the book supply chain
+### ONIX, bibliographic data for the book supply chain
 
+```
 <ONIXMessage release="3.0">
   <Product>
     <ProductIdentifier>
@@ -101,9 +105,11 @@ ONIX, bibliographic data for the book supply chain
         <SubjectCode>LIT014000</SubjectCode>
         </Subject>
         ...
+```
 
 ### Subtitles for video:
 
+```
 <subtitle version="1">
   <name>SampleSubtitles</name>
   <rate>24</rate>
@@ -142,9 +148,11 @@ ONIX, bibliographic data for the book supply chain
     </title>
   </video>
 </subtitle>
+```
 
 ### MathML:
 
+```
   <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mi>a</mi>
     <msup>
@@ -157,10 +165,11 @@ ONIX, bibliographic data for the book supply chain
     <mo>+</mo>
     <mi>c</mi>
   </math>
-
+```
 
 ### MusicXML: 
 
+```
 <score-partwise version="4.0">
   <part-list>
     <score-part id="P1">
@@ -194,4 +203,4 @@ ONIX, bibliographic data for the book supply chain
     </measure>
   </part>
 </score-partwise>
-
+```
