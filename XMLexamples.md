@@ -3,7 +3,7 @@
 The original markup language standards SGML, HTML, and early XML) were designed for publishing; they were concerned with marking up texts for processing, printing, searching, and distribution online. But the "generalized" or "extensible" idea (the G in SGML; the X in XML) means these ways of treating text become useful as notation systems to describe data.
 
 
-### **HTML** -- that is, prose text for publishing, in a website, in an ebook, etc.:
+### HTML -- that is, prose text for publishing, in a website, in an ebook, etc.:
 
 ```
 <html>
