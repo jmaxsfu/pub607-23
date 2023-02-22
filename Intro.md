@@ -1,5 +1,10 @@
 # PUB 607 (2023): Digital Production Fundamentals
 
+Welcome to PUB 607, in which we will blast through Digital Production Fundamentals -- in both EBook and Audiobook contexts -- in just five short weeks!
+
+This course is based on John's many years of mucking around with digital production. Some of the approaches to production here (especially ebook production) are *not* the "industry standard" (which is all about using InDesign to export epubs). In this course we will explore a very strong case, based both historically and empirically, for why this approach is superior to "industry standard."
+
+The fundamental learning approach in PUB 607 is: working with a simplest-possible technological base, to be able to fool around and *play* with production techniques in order to become comfortable and confident that you can do these things.
 
 ## Course Schedule
 
