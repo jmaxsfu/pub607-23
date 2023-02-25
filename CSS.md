@@ -1,6 +1,6 @@
 # A CSS Tutorial
 
-I couldn't find my good old (thin) CSS book, so I'm posting this instead... the smallest, shortest CSS primer you'll ever see.
+This is the smallest, shortest CSS primer you'll ever see.
 
 ## Basic syntax (note the punctuation):
 

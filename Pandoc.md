@@ -7,27 +7,43 @@ John Maxwell, Publishing @ SFU
 
 Beginning with a dead simple markdown file, in a plain text editor.
 
+We talk to Pandoc by issuing commands in our command shell. The examples below assume you are "in" the same folder where the files are.
+
+The basic format for Pandoc commands is like so:
+
+    pandoc inputFile -o outputFile 
+
+There are lots of other options we can specify, though, by writing them in the age-old Unix way, with a hyphen and a letter. Pandoc also has more verbose, explicit alternatives where you type two hyphens and then a specific label, followed by the equal sign, and then the option you want. That's harder to describe than it is to show. See below:
+
 
 ## Simplest possible:
 
-    pandoc  test.txt -o test.html
+    pandoc  test.txt -o test.html  
+    pandoc  test.txt --output=test.html
 
-The -o part tells Pandoc to put it's output ("o" for "output,"" get it?) into the filename you specify after the -o. If you don't specify and output file, it just spews output into your command shell, which is probably not what you want.
+These two versions are identical; I'm including both for the sake of clarity; in practice, you'll probably find yourself using the shorter versions once you get the hang of it.
 
-Open the resulting file up in your web browser -- and in your text editor. Note that it isn't a complete HTML document. We can ask it to include a proper header and footer -- make it a "standalone" document.
+The **-o** part tells Pandoc to put it's output ("o" for "output,") into the filename you specify after the -o. If you don't specify and output file, it just spews output into your command shell, which is probably not what you want. If you specify a file that already exists, it will be over-written. If you specify a file that doesn't exist, it'll get created.
+
+Open the resulting file up in your web browser -- and in your text editor. Note that this simples possible example isn't a complete HTML document -- it's just content in HTML format. 
+
 
 ## Standalone: -s
 
+We can ask it to include a proper header and footer -- make it a "standalone" document.
 
-    pandoc -s test.txt -o test.html
+    pandoc -s test.txt -o test.html  
+    pandoc --standalone test.txt --output=test.html
 
 That's a little better. It now has a proper document "head," which specifies the title, and the character set, and things like that. Pandoc also adds a boilerplate stylesheet so it looks a bit more like something.
 
-Let's add a stylesheet of our own instead of the default one.
 
 ## Add a stylesheet: -c
 
-    pandoc -s test.txt  -o test.html -c stylesheet.css  
+Let's add a stylesheet of our own instead of the default one.
+
+    pandoc -s test.txt  -o test.html -c stylesheet.css    
+    pandoc -s test.txt  -o test.html --css=stylesheet.css  
 
 Pandoc is smart enough to reduce it's built-in boilerplate stylesheet to the bare minimum, and link in the external one that we use. We could call it "house style" and use it for all our books.
 
@@ -37,72 +53,77 @@ Pandoc is smart enough to reduce it's built-in boilerplate stylesheet to the bar
 If you don't tell it otherwise, Pandoc assumes it's converting markdown (text) to HTML. But you can specify output formats including html, rtf, odt, docx, icml, and many more. Use -t ("to")
 
     pandoc -t docx test.txt -o test.docx
+    pandoc --to=docx test.txt -o test.docx
+
 
 ## Pandoc has multiple import formats.
 
 We can convert *from* many different formats as well using -f ("from")
 
-    pandoc -f docx test.docx -o test.html
+    pandoc -f docx test.docx -o test.html  
+    pandoc --from=docx test.docx -o test.html
 
 It's probably a good idea to use -t and -f explicitly all the time.
 
-   pandoc -s -f markdown -t html test.txt -o test.html
+    pandoc -s -f markdown -t html test.txt -o test.html  
+    pandoc --standalone --from=markdown --to=html test.txt --output=test.html
 
 
-## Thats the basics
+## Thats the basics!
 
 You now know the basics of how to ask Pandoc to do conversions. The Pandoc manual, however, is 162 pages long. So there is a *lot* of nuance and flexibility on tap. You should spend some time browsing the Manual... https://pandoc.org/MANUAL.html
 
 
-*********************************
-((((((((((((((((()))))))))))))))))
-&&&&&&&&&&&&&&&&&&&&&&&
+# Pandoc to EPUB - Building your EBook with Pandoc
 
+If we can create HTML, we're already most of the way to EPUB. Not surprisingly, Pandoc can go the extra steps to creating EPUBs, and does a really good, thorough job of it. It can produce both EPUB2 and EPUB3 flavours.
 
-# Pandoc to EPUB
+The sensible way to proceed is to prepare the content as markdown, and to develop a basic stylesheet while converting to HTML only -- this allows very easy proofing and feedback in your web browser. Once you're happy with the editing, though, you can shift to producing EPUB, which is more cumbersome to proof.
 
-If we can create HTML, we're already partway to EPUB. Not surprisingly, Pandoc can go the extra steps to creating EPUBs, and does a really good, thorough job of it. It can produce both EPUB2 and EPUB3 flavours (though the real difference between those two has more to do with what you put in the book).
+It's common to produce ebooks with one chapter per file. The reasons have to with ease of use, and probably a little bit about keeping the files small and fast to load, too. But you don't have to; you can easily produce an EPUB with all the content in a single text file; Pandoc uses the Headers (level 1 or 2, typically) to build the chapter navigation.
 
-Here's the basic method. Say we had a folder full of markdown files, one file per chapter. We can get pandoc to assemble them all, convert to HTML, assemble the package, set  metadata fields. Let's start simple, though: a three chapter book:
+So we'll proceed with the idea of an ebook as a folder full of files. This example will have one markdown file per chapter. We can get pandoc to assemble them all, convert to HTML, assemble the package, and set the metadata fields. 
 
 ## Simplest possible:
 
-    pandoc -s file1 file2...  -t epub3  -o file.epub
+    pandoc -s chapter1.md chapter2.md chapter3.md  -t epub3  -o book.epub
 
-<div class="notes">
-A glance at the excellent [Pandoc Users' Guide](http://johnmacfarlane.net/pandoc/README.html) tells us how to do lots of other things, too. Add your house stylesheet:
-</div>
+You can open this file up in Thorium Reader or Apple Books.app or whatever.
 
 ## Add an epub-stylesheet
-    pandoc -s file1 file2... -t epub3 -o file.epub  
-      --epub-stylesheet=house.css
+
+We can add our house stylesheet just the same as we did with our HTML conversions:
+
+    pandoc -s chapter1.md chapter2.md chapter3.md  -t epub3  -o book.epub  -c stylesheet.css
 
 ## Add a cover image:
 
-    pandoc -s  file1 file2...  -t epub3  -o file.epub  
-      --epub-cover-image=cover.png 
-      --epub-stylesheet=epub.css
+Our book shows up in the ereader with a blank cover. Let's fix that: 
 
-<div class="notes">
-Add metadata. There are two different ways: Here, specified in Dublin Core-style and stored in an external file: 
-</div>
+    pandoc -s chapter1.md chapter2.md chapter3.md  -t epub3  -o book.epub -c stylesheet.css --epub-cover-image=cover.png 
+
 
 ## Add metadata as XML:
 
-    pandoc -s  file1 file2...  -t epub3  -o file.epub3  
-       --epub-metadata=md.xml --epub-cover-image=cover.png 
-       --epub-stylesheet=epub.css
+Notice that Pandoc has been complaining that our book has no title. It's also missing other information, like author, publication date, and so on.
 
-<div class="notes">
-There is another method, where you add the metadata in the source markdown file as well, in a "metadata block" that comes at the beginning. Possibly easier that way. It might look like this. We write all that stuff -- including the stylesheet and cover image -- in a file called frontmatter, and pass it along with the rest of the content.
-</div>
+There are two different ways: One is where metadata is written in Dublin Core XML and stored in an external file. This option probably makes sense if your company already has an ebook workflow and generates metadata as XML
+
+    pandoc -s chapter1.md chapter2.md chapter3.md  -t epub3  -o book.epub -c stylesheet.css --epub-cover-image=cover.png --epub-metadata=md.xml
 
 ## Add metadata in the source (much simpler!)
 
-        pandoc -s metadata.txt file1 file2... -t epub3 
-           -o file.epub
+There is a simpler method, where you add the metadata in the source markdown file as well, in a "metadata block" that comes at the beginning. 
 
-. . .
+We'll just pass the metadata as another content file. 
+
+    pandoc -s frontmatter.md chapter1.md chapter2.md chapter3.md  -t epub3  -o book.epub -c stylesheet.css --epub-cover-image=cover.png 
+
+Note that you could also pass the cover image and the stylesheet in this metadata block -- and it would clean up this Pandoc command a whole bunch!
+
+
+----*(&(*^*^&^%&%^$^%$&%$^#$&%$#&*^&))
+
 
 *(better)*
 
