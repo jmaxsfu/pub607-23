@@ -1,7 +1,7 @@
 # A Pandoc Tutorial
 
 John Maxwell, Publishing @ SFU  
-*originally a workshop for EBound Canada back in 2014*
+*originally a workshop for EBound Canada way back in 2014*
 
 
 
@@ -10,52 +10,60 @@ Beginning with a dead simple markdown file, in a plain text editor.
 
 ## Simplest possible:
 
-    pandoc  test.txt -o text.html
+    pandoc  test.txt -o test.html
 
-<div class="notes">
-And here's the result. Note that it isn't a complete document. We can ask it to include a proper header and footer -- make it a "standalone" document.
-</div>
+The -o part tells Pandoc to put it's output ("o" for "output,"" get it?) into the filename you specify after the -o. If you don't specify and output file, it just spews output into your command shell, which is probably not what you want.
+
+Open the resulting file up in your web browser -- and in your text editor. Note that it isn't a complete HTML document. We can ask it to include a proper header and footer -- make it a "standalone" document.
 
 ## Standalone: -s
 
 
-    pandoc -s test.txt -o text.html
+    pandoc -s test.txt -o test.html
 
-<div class="notes">
-Not terribly exciting, is it? But that's just the beginning.
+That's a little better. It now has a proper document "head," which specifies the title, and the character set, and things like that. Pandoc also adds a boilerplate stylesheet so it looks a bit more like something.
 
-Let's add a stylesheet.
-</div>
+Let's add a stylesheet of our own instead of the default one.
 
-## Add a stylesheet: *-c*
+## Add a stylesheet: -c
 
     pandoc -s test.txt  -o test.html -c stylesheet.css  
 
+Pandoc is smart enough to reduce it's built-in boilerplate stylesheet to the bare minimum, and link in the external one that we use. We could call it "house style" and use it for all our books.
 
 
+## Pandoc has multiple export formats.
 
-## Pandoc has multiple exports.
+If you don't tell it otherwise, Pandoc assumes it's converting markdown (text) to HTML. But you can specify output formats including html, rtf, odt, docx, icml, and many more. Use -t ("to")
 
-html, rtf ,odt, docx...
+    pandoc -t docx test.txt -o test.docx
 
-<div class="notes">
-You can export to word-processor formats: RTF, ODT, .docx, though this seems entirely backwards to me.
+## Pandoc has multiple import formats.
 
-In truth, I use this feature... when I have to submit an article to a journal than insists on a Word doc submission. I bet that's why MacFarlane put those in, too. There is also a substantial referencing system (citeproc) on tap as well. And a very nice footnoting system too.
+We can convert *from* many different formats as well using -f ("from")
 
-</div>
+    pandoc -f docx test.docx -o test.html
 
-## Pandoc to EPUB
+It's probably a good idea to use -t and -f explicitly all the time.
 
-<div class="notes">
+   pandoc -s -f markdown -t html test.txt -o test.html
+
+
+## Thats the basics
+
+You now know the basics of how to ask Pandoc to do conversions. The Pandoc manual, however, is 162 pages long. So there is a *lot* of nuance and flexibility on tap. You should spend some time browsing the Manual... https://pandoc.org/MANUAL.html
+
+
+*********************************
+((((((((((((((((()))))))))))))))))
+&&&&&&&&&&&&&&&&&&&&&&&
+
+
+# Pandoc to EPUB
+
 If we can create HTML, we're already partway to EPUB. Not surprisingly, Pandoc can go the extra steps to creating EPUBs, and does a really good, thorough job of it. It can produce both EPUB2 and EPUB3 flavours (though the real difference between those two has more to do with what you put in the book).
-</div>
 
-## *The Memoirs of the Conquistador Bernal Diaz del Castillo, Vol 1*
-
-<div class="notes">
 Here's the basic method. Say we had a folder full of markdown files, one file per chapter. We can get pandoc to assemble them all, convert to HTML, assemble the package, set  metadata fields. Let's start simple, though: a three chapter book:
-</div>
 
 ## Simplest possible:
 
