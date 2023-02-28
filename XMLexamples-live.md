@@ -5,7 +5,6 @@ The original markup language standards SGML, HTML, and early XML) were designed 
 
 ### HTML -- that is, prose text for publishing, in a website, in an ebook, etc.:
 
-```
 <html>
   <body>
     <section id="pub-607-fundamentals" class="level1">
@@ -15,11 +14,9 @@ The original markup language standards SGML, HTML, and early XML) were designed 
         <p>A file is a <strong>metaphor</strong> for a structured bundle of data in a computer. Files do not actually exist in your computer, or on its hard drive (which is not in fact hard). It’s a metaphor that shapes a set of behaviours around how we deal with files. The metaphor is closely related to the idea of “documents,” but not exactly equivalent.</p>
         <p>The file idea, more or less, dates to the late 1960s, early 1970s, and was popularized through the spread of the Unix operating system (which is still with us). We still think largely in terms of files, although alternative metaphors (or patterns) are becoming more common: streams; queries; things pulled together on the fly out of databases.</p>
         ...
-```
 
 ### SVG, Scalable Vector Graphics, a web-portable graphics standard:
 
-```
 <svg width="467" height="462">
   <rect x="80" y="60" width="250" height="250" rx="20"
       style="fill:#ff0000; stroke:#000000;stroke-width:2px;" />
@@ -30,11 +27,10 @@ The original markup language standards SGML, HTML, and early XML) were designed 
       style="fill:#00ff00; stroke:#0000cc; stroke-width:5px;
       fill-opacity:1.0;" />
 </svg>
-```
+
 
 ### RSS, or syndication feeds for podcasts, blogs, news headlines, etc:
 
-```
 <rss version="2.0">
   <channel>
     <title>Dafna's Zebra Podcast</title>
@@ -65,11 +61,9 @@ The original markup language standards SGML, HTML, and early XML) were designed 
     </item>
   </channel>
 </rss>
-```
 
 ### ONIX, bibliographic data for the book supply chain
 
-```
 <ONIXMessage release="3.0">
   <Product>
     <ProductIdentifier>
@@ -105,11 +99,10 @@ The original markup language standards SGML, HTML, and early XML) were designed 
         <SubjectCode>LIT014000</SubjectCode>
         </Subject>
         ...
-```
+
 
 ### Subtitles for video:
 
-```
 <subtitle version="1">
   <name>SampleSubtitles</name>
   <rate>24</rate>
@@ -148,11 +141,11 @@ The original markup language standards SGML, HTML, and early XML) were designed 
     </title>
   </video>
 </subtitle>
-```
+
 
 ### MathML:
 
-```
+
   <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mi>a</mi>
     <msup>
@@ -165,11 +158,11 @@ The original markup language standards SGML, HTML, and early XML) were designed 
     <mo>+</mo>
     <mi>c</mi>
   </math>
-```
+
 
 ### MusicXML: 
 
-```
+
 <score-partwise version="4.0">
   <part-list>
     <score-part id="P1">
@@ -203,4 +196,3 @@ The original markup language standards SGML, HTML, and early XML) were designed 
     </measure>
   </part>
 </score-partwise>
-```
