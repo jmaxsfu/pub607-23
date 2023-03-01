@@ -17,7 +17,9 @@ The original markup language standards SGML, HTML, and early XML) were designed 
         ...
 ```
 
-### SVG, Scalable Vector Graphics, a web-portable graphics standard:
+### SVG, Scalable Vector Graphics, a web-portable graphics standard [Click to see live](svg.md)
+
+[Click to see live](svg.md)
 
 ```
 <svg width="467" height="462">
@@ -167,7 +169,7 @@ The original markup language standards SGML, HTML, and early XML) were designed 
   </math>
 ```
 
-### MusicXML: 
+### MusicXML:
 
 ```
 <score-partwise version="4.0">
