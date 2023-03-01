@@ -17,7 +17,7 @@ The original markup language standards SGML, HTML, and early XML) were designed 
         ...
 ```
 
-### SVG, Scalable Vector Graphics, a web-portable graphics standard [Click to see live](svg.md)
+### SVG, Scalable Vector Graphics, a web-portable graphics standard
 
 [Click to see live](svg.md)
 
@@ -153,6 +153,8 @@ The original markup language standards SGML, HTML, and early XML) were designed 
 ```
 
 ### MathML:
+
+[Click to see live](math.md)
 
 ```
   <math xmlns="http://www.w3.org/1998/Math/MathML">
