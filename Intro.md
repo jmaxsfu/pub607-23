@@ -1,1 +1,0 @@
-moved to README.md
