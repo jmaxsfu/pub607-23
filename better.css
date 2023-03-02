@@ -1,0 +1,65 @@
+
+
+body {
+    background: white;
+    font-family: Georgia;
+    padding: 0; margin: 0;
+}
+
+section {
+    border: 1px red solid;
+}
+
+div#twocolumns {
+	display: grid;
+	width: 100%;
+	grid-template-areas: "sidebar main";
+	grid-template-columns: 100px auto;
+	border: 1px green solid;
+}
+
+
+section#main_flow {
+   grid-area: main;
+   background-color: white;
+}
+
+#sidebar {
+   grid-area: sidebar;
+   background-color: lightgray;
+}
+  
+  
+
+h1, h2 {
+    font-family: Helvetica, Arial;
+}
+
+h1 {font-size: 24px;}
+h2 {font-size: 18px;}
+h3 {font-size: 14px;}
+
+
+p {
+    margin-top: 1em;
+    text-indent: 0;
+    line-height: 1.3em;
+}
+
+section {
+   background: #eeeeee;   
+   padding: 1em;
+}
+
+a:link {color: blue; }
+a:visited {color: #000088;}
+a:hover {color: lime; background-color: pink;}
+
+table {
+   border-collapse: collapse;
+   }
+th, td {
+   border: 1px green solid;
+   }
+
+

@@ -52,11 +52,11 @@ You can also specify that the thing only counts if it appears in a particular co
 		font-family: Helvetica, "Akzidenz Grotesk";
 
 
-Here are some further notes about [specificity in CSS]() -- getting at the thing you want.
+Here are some further notes about [specificity in CSS](CSSspec.md) -- getting at the thing you want.
 
 Here are a couple of example CSS sheets, for your amusement and cribbing:
 
-[simple.css]()  
-[better.css]()  
-[simpleEbook.css]() -- an simple css I wrote for an ebook project once.
+[[simple.css]]  
+[[better.css]]  
+[[simpleEbook.css]]  
 

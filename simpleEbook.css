@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+
+body {
+  background-color: lightyellow;
+  width: 35em;
+  margin-left: 2em;
+  line-height: 140%;
+}
+
+
+body {
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.4em;
+}
+
+p {
+   margin-bottom:0; 
+}
+p + p {
+   text-indent:1.6em;
+   margin-top:0 
+}
+
+
+
+h1,h2,h3 {
+    font-family: Myriad Pro;
+    line-height: 1.2em;
+    font-weight: normal;
+}
+h1 {font-size: 1.4em;}
+h1 {border-bottom: 1px grey solid;}
+
+h2 {font-size: 1.15em;}
+h3 {font-size: 1.0em;}
+
+h3.date {font-style: italic;}
+
+ul {margin: 0em; padding-left: 1em; }
+
+
+b, strong { font-weight: normal;}
+
+blockquote {margin: 1em 2em 1em 1.5em; font-style: italic;}
+
+code {font-size: .8em;}
+sup {font-size: 80%;
+     vertical-align: super;
+     line-height: 0;}
+sup a {text-decoration: none;}
+
+/*ebook fixes*/
+
+#contents-of-the-first-volume p { margin-top:1em; text-indent: 0; }
+#frontmatter p { margin-top:1em; text-indent: 0; }
