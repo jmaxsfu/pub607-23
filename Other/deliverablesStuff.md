@@ -1,3 +1,5 @@
+PUB 607 2022 deliverables
+
 The following is a general timeline of deliverables for all projects. Each actual Project will define a more specific set of deliverables, but this is the overall rhythm that you should aim for.
 
 *Every week: Weds 9:30–12:20 and Thurs 1:30–4:00 Project check-ins*
