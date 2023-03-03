@@ -1,4 +1,4 @@
-# A CSS Tutorial
+# A CSS Primer
 
 This is the smallest, shortest CSS primer you'll ever see.
 

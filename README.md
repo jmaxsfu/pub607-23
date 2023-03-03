@@ -20,11 +20,11 @@ PUB 607 features four lectures and four demos, and the rest of the time will be 
 **Tues Mar 14** - [Lecture 3: Producing Accessible Ebooks](3.Ebooks.md). 
 **Thurs Mar 16** - [Regular Expressions demo](Regex.md) + EBook work time
 
-**Tues Mar 21** - [CSS demo](CSS.md) + EBook work time  
+**Tues Mar 21** - [CSS demo/primer](CSS.md) + EBook work time  
 **Thurs Mar 23** - InDesign import demo + EBook wrap-up time
 
 **Tues Mar 28** - [Lecture 4: Audio Production](4.Audio.md) + Audio work time  
-**Thurs Mar 30** - [DAW demo](DAW.md) + Audio work time
+**Thurs Mar 30** - [DAW demo/primer](DAW.md) + Audio work time
 
 **Tues Apr 4** - Audiobook wrap-up time   
 **Thur Apr 6** - PUB 607 Show and Tell + End of Term!
