@@ -1,9 +1,13 @@
 # PUB 607 – 2023: Digital Production Fundamentals
 
+John Maxwell  
+jmax@sfu.ca  
+Publishing @ SFU  
+March 2023
+
 Welcome to PUB 607, in which we will cover through Digital Production Fundamentals for both EBooks and Audiobooks, in just five short weeks! This course is based on John's *decades* of experimentation with digital production, which have been distilled here into a set of best practices. 
 
 This course presents both *theory* and *practice* so that you may come to an understanding of *why* production should be done this way. The fundamental learning approach in PUB 607 is: working with a simplest-possible technological base, to be able to fool around and *play* with production techniques in order to become comfortable and confident that you can do these things.
-
 
 *These course materials are available in the PUB607 Canvas course, and also through GitHub, at <https://github.com/jmaxsfu/pub607-23> and at <https://jmaxsfu.github.io/pub607-23> and via Docisfy-this, at <https://docsify-this.net/?basePath=https://raw.githubusercontent.com/jmaxsfu/pub607-23/main&homepage=README.md&font-family=Lato,sans-serif&font-size=1&hypothesis=true#/>*
 
