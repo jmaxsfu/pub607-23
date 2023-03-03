@@ -56,7 +56,7 @@ Here are some further notes about [specificity in CSS](CSSspec.md) -- getting at
 
 Here are a couple of example CSS sheets, for your amusement and cribbing:
 
-[simple.css](simple.css)  
-[[better.css]]  
-[[simpleEbook.css]]  
+- [simple.css](https://github.com/jmaxsfu/pub607-23/blob/f89166f1dbecc7638ffb9ead583dff019d71746f/simple.css)  
+- [better.css](https://github.com/jmaxsfu/pub607-23/blob/f89166f1dbecc7638ffb9ead583dff019d71746f/better.css)  
+- [simpleEbook.css](https://github.com/jmaxsfu/pub607-23/blob/f89166f1dbecc7638ffb9ead583dff019d71746f/simpleEbook.css)  
 

@@ -3,6 +3,14 @@
 John Maxwell, Publishing @ SFU  
 *originally a workshop for EBound Canada way back in 2014*
 
+---
+
+Remember that Pandoc's own User Manual is spectacularly good. Use it!
+
+<https://pandoc.org/MANUAL.html>
+
+---
+
 
 
 Beginning with a dead simple markdown file, in a plain text editor.
