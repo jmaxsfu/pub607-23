@@ -34,19 +34,19 @@ PUB 607 features four lectures and four demos, and the rest of the time will be 
 
 ## Assignments & Deliverables
 
-You'll work collaboratively in teams of three to produce both an accessible EPUB ebook and at least part of an audiobook. The following are the critical milestones:
+You'll work collaboratively in teams of three to produce both an accessible EPUB ebook and at least part of an audiobook. The following are the critical milestones, and their dates due:
 
-**Mar 9** – Install a text editor on your laptop (suggested: **Sublime Text**)
+by **Mar 9** – Install a text editor on your laptop (suggested: **Sublime Text**)
 
-**Mar 14** – Install **Pandoc** on your laptop and peruse the User Manual.
+by **Mar 14** – Install **Pandoc** on your laptop and peruse the User Manual.
 
-**Mar 14**  'Acquire a manuscript' -- I recommend going to **Project Gutenberg** (pick the "Plain Text UTF-8" version of whatever book you choose). If you have a different idea of what you want to use, feel free, but please tell me.
+by **Mar 14**  'Acquire a manuscript' -- I recommend going to **Project Gutenberg** (pick the "Plain Text UTF-8" version of whatever book you choose). If you have a different idea of what you want to use, feel free, but please tell me.
 
-**Mar 27** – Produce an *accessible ebook*, starting with plaintext, editing the text as markdown, then working iteratively with Pandoc, develop the stylesheet for the book and any images or other elements that you want. Finally, produce a EPUB3 version and test it! Your book will need a cover, cataloguing metadata, a brief report on accessibility testing, and a download page.
+by **Mar 27** – Produce an *accessible ebook*, starting with plaintext, editing the text as markdown, then working iteratively with Pandoc, develop the stylesheet for the book and any images or other elements that you want. Finally, produce a EPUB3 version and test it! Your book will need a cover, cataloguing metadata, a brief report on accessibility testing, and a download page.
 
-**March 28** – Install a Digital Audio Workstation (suggested: **Audacity**, but GarageBand or equivalent will also do)
+by **March 28** – Install a Digital Audio Workstation (suggested: **Audacity**, but GarageBand or equivalent will also do)
 
-**Apr 5** – Working with your edited text as script, produce and record an *audiobook* version of (at least 1 chapter) of your book. Your audiobook will need metadata, a cover, and a download page.
+by **Apr 5** – Working with your edited text as script, produce and record an *audiobook* version of (at least 1 chapter) of your book. Your audiobook will need metadata, a cover, and a download page.
 
-**Apr 6** – With an audience of your peers, random faculty, and possible a friendly guest or two, stand up and show off your team's ebook and audiobook, and tell a short story about your experience, challenges you faced, and/or things you're proud of: about 15–20 minutes, slides *not* required.
+on **Apr 6** – With an audience of your peers, random faculty, and possible a friendly guest or two, stand up and show off your team's ebook and audiobook, and tell a short story about your experience, challenges you faced, and/or things you're proud of: about 15–20 minutes, slides *not* required.
 
