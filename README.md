@@ -4,11 +4,9 @@ Welcome to PUB 607, in which we will cover through Digital Production Fundamenta
 
 This course presents both *theory* and *practice* so that you may come to an understanding of *why* production should be done this way. The fundamental learning approach in PUB 607 is: working with a simplest-possible technological base, to be able to fool around and *play* with production techniques in order to become comfortable and confident that you can do these things.
 
----
 
 *These course materials are available in the PUB607 Canvas course, and also through GitHub, at <https://github.com/jmaxsfu/pub607-23> and at <https://jmaxsfu.github.io/pub607-23>*
 
----
 
 ## Course Schedule
 
