@@ -13,7 +13,7 @@ Acquire a 'manuscript' to work with. We recommend going to Project Gutenberg (pi
 Draft by March 21  
 Complete by April 6
  
-Thinking backwards, consider what happens when you have two files ready for your users. How will your reader access your eBook and Audiobook? Create a simple page in Github so that users can access your files. This will help you become more comfortable with Markdown while considering the user experience of distributing the book.
+Thinking backwards, consider what happens when you have two files ready for your users. How will your reader access your eBook and Audiobook? Create a simple page in [Github](Github.md) so that users can access your files. This will help you become more comfortable with Markdown while considering the user experience of distributing the book.
 
 ## Deliverable 3: Produce an accessible ebook
 
