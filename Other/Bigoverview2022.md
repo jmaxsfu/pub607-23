@@ -26,6 +26,8 @@ The project was self-directed, with weekly meetings and occasional check-ins. St
 ### Documentation
 This is the key to this project. We used the Gitit wiki to document everything. Notes, goals, questions, answers, logs, tests, results, reports. Everything. ALL YOUR DOCS ARE BELONG TO US. Make lots of pages. Define goals and scope. Research and define specific objectives. Design, build, document. 
 
+### Can Shaleeta Edit this Wiki and Push it Back?
+Why yes, yes she can. If she can remember where the edit was is an entirely different question. 
 
 ### What is a Wiki, Anyway?
 
