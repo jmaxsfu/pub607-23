@@ -37,7 +37,7 @@ We strongly recommend this be ready by March 27 so you can all be working on the
 
 Due April 5
 
-Working with your edited text as script, produce and record an audiobook version of (at least 1 chapter) of your book. We have equipment available, but you will need to find an appropriate space to record. Your audiobook will need metadata, a cover, and that download page.
+Working with your edited text as script, produce and record an audiobook version of (at least 1 chapter) of your book. We have equipment available, but you will need to find an appropriate space to record. As with the ebook, your audiobook will need metadata, a cover, and that download page.
 
 
 ## Deliverable 5: Show and Tell
