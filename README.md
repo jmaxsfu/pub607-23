@@ -39,9 +39,9 @@ You'll work collaboratively in teams of three to produce both an accessible EPUB
 
 by **Mar 9** – Install a text editor on your laptop (suggested: **Sublime Text**)
 
-by **Mar 14** – Install **Pandoc** on your laptop and peruse the User Manual.
-
 by **Mar 14**  'Acquire a manuscript' to build your ebook and audiobook from.
+
+by **Mar 14** – Install **Pandoc** on your laptop and peruse the User Manual.
 
 by **Mar 27** – Produce an *accessible ebook* using markdown and Pandoc.
 
