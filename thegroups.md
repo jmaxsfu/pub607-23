@@ -1,29 +1,29 @@
  
- ## Team Thistle:
+ ## Team Thistle
 
 - Jill
 - Keyvan
 - Kyra
 
-## Team Salmon:
+## Team Salmon
 
 - Aditi
 - Ev
 - Raphael
 
-## Team Lemon:
+## Team Lemon
 
 - Cecilia
 - Daniela
 - Jarin
 
-## Team Ice:
+## Team Ice
 
 - Kalicia
 - Mélanie
 - Sarah
 
-## Team Matcha:
+## Team Matcha
 
 - Christina
 - Mary
