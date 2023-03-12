@@ -5,23 +5,39 @@ John Maxwell, Publishing @ SFU
 
 ---
 
-Remember that Pandoc's own User Manual is spectacularly good. Use it!
+One of the key pieces of software we will use with markdown is **Pandoc** -- which bills itself as the "universal document converter."  <https://pandoc.org>
 
+Pandoc is not the only tool that will convert markdown -- indeed there are hundreds of those -- but it is the best, and the most flexible.
+
+Pandoc was originally designed as a markdown-to-HTML conversion tool, but it has been *generalized* to work with dozens of different input and output formats.
+
+What that means is that it takes any structured (or even semi-structured) document format, and parses it into an internal representation. That internal representation can then be re-written in any other structured document format.
+
+Pandoc is extremely high-quality software, and it is *exquisitely* well documented. I have often said that "a close reading of the Pandoc user manual would constitute a whole course in document production." Since you're currently taking a course in ebook production, it would be a good idea to at least familiarize yourself with Pandoc's incredibly well-written User's Manual: <https://pandoc.org/MANUAL.html>
+
+Pandoc, it must be said, has a command-line interface. That means you use it by typing commands into a command shell, like it's 1983 all over again. You have one of these, though: on your Mac, it's called "Terminal." On Windows, it's called "Powershell."
+
+I know, it's old, and it makes you feel like you're in an 80s movie. But the command-line interface actually really works incredibly well, especially for text processing, because it was invented for text processing. If you want to be one of the cool kids, you'll play with the preferences in your shell so that it's green type on a black background. Embrace your inner geek! 
+
+
+Here's a [Command-shell cheat sheet](Commands.md)
 <https://pandoc.org/MANUAL.html>
 
----
+
+## Working with Pandoc
 
 
+Beginning with a dead simple markdown file...
 
-Beginning with a dead simple markdown file, in a plain text editor.
-
-We talk to Pandoc by issuing commands in our command shell. The examples below assume you are "in" the same folder where the files are.
+We talk to Pandoc by issuing commands in our command shell. The examples below assume you are "in" the same folder where the files are. If not, you need to `cd` into that folder, so that when you `ls` to see the files there, you see the ones you want to work with. 
 
 The basic format for Pandoc commands is like so:
 
     pandoc inputFile -o outputFile 
 
-There are lots of other options we can specify, though, by writing them in the age-old Unix way, with a hyphen and a letter. Pandoc also has more verbose, explicit alternatives where you type two hyphens and then a specific label, followed by the equal sign, and then the option you want. That's harder to describe than it is to show. See below:
+There are other options we can (and will) specify, though, by writing them in the age-old Unix way, with a hyphen and a letter, like "-o" above. Pandoc also has more verbose, explicit alternatives where you type two hyphens and then a specific label, followed by the equal sign, and then the option you want. That's harder to describe than it is to show. 
+
+In the examples below, I'll show both ways of setting these options... in practice, it's easier to type the shorter version, but the longer version is useful for getting familiar with them.
 
 
 ## Simplest possible:
@@ -29,7 +45,7 @@ There are lots of other options we can specify, though, by writing them in the a
     pandoc  test.txt -o test.html  
     pandoc  test.txt --output=test.html
 
-These two versions are identical; I'm including both for the sake of clarity; in practice, you'll probably find yourself using the shorter versions once you get the hang of it.
+These two versions are identical; I'm including both for the sake of clarity.
 
 The **-o** part tells Pandoc to put it's output ("o" for "output,") into the filename you specify after the -o. If you don't specify and output file, it just spews output into your command shell, which is probably not what you want. If you specify a file that already exists, it will be over-written. If you specify a file that doesn't exist, it'll get created.
 
