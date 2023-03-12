@@ -42,8 +42,8 @@ In the examples below, I'll show both ways of setting these options... in practi
 
 ## Simplest possible:
 
-    pandoc  test.txt -o test.html  
-    pandoc  test.txt --output=test.html
+    pandoc  test.md -o test.html  
+    pandoc  test.md --output=test.html
 
 These two versions are identical; I'm including both for the sake of clarity.
 
@@ -56,8 +56,8 @@ Open the resulting file up in your web browser -- and in your text editor. Note 
 
 We can ask it to include a proper header and footer -- make it a "standalone" document.
 
-    pandoc -s test.txt -o test.html  
-    pandoc --standalone test.txt --output=test.html
+    pandoc -s test.md -o test.html  
+    pandoc --standalone test.md --output=test.html
 
 That's a little better. It now has a proper document "head," which specifies the title, and the character set, and things like that. Pandoc also adds a boilerplate stylesheet so it looks a bit more like something.
 
@@ -66,8 +66,8 @@ That's a little better. It now has a proper document "head," which specifies the
 
 Let's add a stylesheet of our own instead of the default one.
 
-    pandoc -s test.txt  -o test.html -c stylesheet.css    
-    pandoc -s test.txt  -o test.html --css=stylesheet.css  
+    pandoc -s test.md  -o test.html -c stylesheet.css    
+    pandoc -s test.md  -o test.html --css=stylesheet.css  
 
 Pandoc is smart enough to reduce it's built-in boilerplate stylesheet to the bare minimum, and link in the external one that we use. We could call it "house style" and use it for all our books.
 
@@ -76,8 +76,8 @@ Pandoc is smart enough to reduce it's built-in boilerplate stylesheet to the bar
 
 If you don't tell it otherwise, Pandoc assumes it's converting markdown (text) to HTML. But you can specify output formats including html, rtf, odt, docx, icml, and many more. Use -t ("to")
 
-    pandoc -t docx test.txt -o test.docx
-    pandoc --to=docx test.txt -o test.docx
+    pandoc -t docx test.md -o test.docx
+    pandoc --to=docx test.md -o test.docx
 
 
 ## Pandoc has multiple import formats.
@@ -87,11 +87,10 @@ We can convert *from* many different formats as well using -f ("from")
     pandoc -f docx test.docx -o test.html  
     pandoc --from=docx test.docx -o test.html
 
-It's probably a good idea to use -t and -f explicitly all the time.
+You can go back to markdown, too.
 
-    pandoc -s -f markdown -t html test.txt -o test.html  
-    pandoc --standalone --from=markdown --to=html test.txt --output=test.html
-
+    pandoc -f html -t markdown test.html -o test.md 
+    pandoc --from html --to markdown test.html -o test.md
 
 ## Thats the basics!
 
@@ -146,26 +145,15 @@ We'll just pass the metadata as another content file.
 Note that you could also pass the cover image and the stylesheet in this metadata block -- and it would clean up this Pandoc command a whole bunch!
 
 
-----*(&(*^*^&^%&%^$^%$&%$^#$&%$#&*^&))
-
-
-*(better)*
-
-<div class="notes">
-By default, Pandoc will break the EPUB into chapters where you have first-level headings. You can override that and set it to second-level heads if you choose, with yet another argument passed at the command.
-
-See the power of this... we have a simple collection of text files; we can change them at will; then we simply re-build, and away we go:
-</div>
-
 
 
 ## Pandoc to Print
 
-<div class="notes">
 Pandoc has a number of paths to PDF... beginning with LaTeX, a venerable computer typesetting system from the 80s/90s which was extremely well optimized for typesetting equations and formulae, and thus became the go-to system for typesetting mathematics and scientific papers. Lots and lots of scientific journals still use LaTeX. Students in math, physics, chem, learn how to do LaTeX... much better at formulae than any DTP tool, certainly historically, possibly still.
 
 Pandoc also incorporates an ICML output, which is the 'story' format for Adobe InDesign. 'Place' the resulting .icml file directly in a blank InDesign template.
-</div>
+
+We'll demo this.
 
 
 
