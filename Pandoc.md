@@ -5,7 +5,9 @@ John Maxwell, Publishing @ SFU
 
 ---
 
-One of the key pieces of software we will use with markdown is **Pandoc** -- which bills itself as the "universal document converter."  <https://pandoc.org>
+One of the key pieces of software we will use with markdown is **Pandoc** -- which bills itself as the "universal document converter." 
+
+<https://pandoc.org>
 
 Pandoc is not the only tool that will convert markdown -- indeed there are hundreds of those -- but it is the best, and the most flexible.
 
@@ -13,7 +15,9 @@ Pandoc was originally designed as a markdown-to-HTML conversion tool, but it has
 
 What that means is that it takes any structured (or even semi-structured) document format, and parses it into an internal representation. That internal representation can then be re-written in any other structured document format.
 
-Pandoc is extremely high-quality software, and it is *exquisitely* well documented. I have often said that "a close reading of the Pandoc user manual would constitute a whole course in document production." Since you're currently taking a course in ebook production, it would be a good idea to at least familiarize yourself with Pandoc's incredibly well-written User's Manual: <https://pandoc.org/MANUAL.html>
+Pandoc is extremely high-quality software, and it is *exquisitely* well documented. I have often said that "a close reading of the Pandoc user manual would constitute a whole course in document production." Since you're currently taking a course in ebook production, it would be a good idea to at least familiarize yourself with Pandoc's incredibly well-written User's Manual: 
+
+<https://pandoc.org/MANUAL.html>
 
 Pandoc, it must be said, has a command-line interface. That means you use it by typing commands into a command shell, like it's 1983 all over again. You have one of these, though: on your Mac, it's called "Terminal." On Windows, it's called "Powershell."
 
@@ -21,7 +25,6 @@ I know, it's old, and it makes you feel like you're in an 80s movie. But the com
 
 
 Here's a [Command-shell cheat sheet](Commands.md)
-<https://pandoc.org/MANUAL.html>
 
 
 ## Working with Pandoc
