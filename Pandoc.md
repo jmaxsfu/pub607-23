@@ -116,7 +116,7 @@ So we'll proceed with the idea of an ebook as a folder full of files. This examp
 
 You can open this file up in Thorium Reader or Apple Books.app or whatever.
 
-## Add an epub-stylesheet
+## Add a stylesheet
 
 We can add our house stylesheet just the same as we did with our HTML conversions:
 
