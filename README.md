@@ -19,7 +19,7 @@ PUB 607 features four lectures and four demos, and the rest of the time will be 
 **Tues Mar 7** - Orientation + [Lecture 1: Files & File Management](1.Files.md)  
 **Thurs Mar 9** - [Lecture 2: Text Production Fundamentals](2.Production.md)
 
-**Tues Mar 14** - [Lecture 3: Producing Accessible Ebooks](3.Ebooks.md)   
+**Tues Mar 14** - [Lecture 3: Producing Accessible Ebooks](3.Ebooks.md) + [Pandoc Demo](Pandoc.md)   
 **Thurs Mar 16** - [Regular Expressions demo](Regex.md) + EBook work time
 
 **Tues Mar 21** - [CSS demo/primer](CSS.md) + EBook work time  
