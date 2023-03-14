@@ -7,7 +7,13 @@ Hello, 607! Below you'll find a list of some of the helpful resources and backgr
 
 ### Lecture One: Files and File Management
 
-*coming soon*
+ - My contact information! Many of you have it already, but you can contact me at shaleetaharper@gmail.com or sharrison@bcitsa.ca 
+ - [Pair Programming](https://www.techtarget.com/searchsoftwarequality/definition/Pair-programming#:~:text=Pair%20programming%20is%20an%20Agile,code%20and%20test%20user%20stories.) as a method you could try while working on your manuscript
+     - If you'd like to learn more about programming methods, [Extreme Programming](http://www.extremeprogramming.org/) is another interesting method!
+ - [sync.com]() as an alternative to Dropbox
+ - [Obsidian.md]() is an alternative note-taking app that uses Markdown! I can't remember *why* this was mentioned, but it looks great!
+ - [Fumbling the Future: how Xerox invented, then ignored, the first personal computer](https://sfu-primo.hosted.exlibrisgroup.com/permalink/f/usv8m3/01SFUL_ALMA21166450440003611) 
+
 
 ### Lecture Two: Text Production and Fundamentals 
 
@@ -19,4 +25,4 @@ Hello, 607! Below you'll find a list of some of the helpful resources and backgr
 - Is there an International Equivalent to BiblioShare? I couldn't figure this out yet. I found [NPD Pubtrack and NPD Bookscan](https://www.npd.com/industry-expertise/books/) but these are more for consumer reports and data, not the sharing of booklists. Let us know if you find more information!
 - [Four Shades of Gray: The Amazon Kindle Platform](https://direct.mit.edu/books/oa-monograph/5298/Four-Shades-of-GrayThe-Amazon-Kindle-Platform)
 - [Aaron Swartz was an interesting fellow](https://en.wikipedia.org/wiki/Aaron_Swartz) 
-- 
+- [BC Sans Font](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/bc-sans) is a British Columbia Open Font based on Googles [Noto Font](https://blog.google/outreach-initiatives/accessibility/preserving-endangered-languages-noto-fonts/), which was created to include as many languages as possible. This is a great font choice when including characters from other languages!
