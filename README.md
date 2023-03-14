@@ -11,6 +11,7 @@ This course presents both *theory* and *practice* so that you may come to an und
 
 *These course materials are available in the PUB607 Canvas course, and also through GitHub, at <https://github.com/jmaxsfu/pub607-23> and at <https://jmaxsfu.github.io/pub607-23>*
 
+*[Shaleeta has compiled a variety of extra resources from things discussed in the lectures.](ShaleetaLinks.md)* 
 
 ## Course Schedule
 
