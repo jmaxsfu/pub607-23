@@ -2,13 +2,13 @@
 
 Here at 607 Press we believe in open access! All of our volunteers work to solve the accessibility challenges faced with ebooks and audiobooks by creating files that are simple and free from errors. All files are free for download, and we encourage suggestions from our community. What book would you like to see next?
 
-<p style="text-align:center">
+<br>
 
-  ### Our Available AudioBooks
+### Our Available AudioBooks
 
-  #### *Alice's Adventures in Wonderland* 
+#### *Alice's Adventures in Wonderland* 
 
-  *Alice's Adventures in Wonderland* (commonly *Alice in Wonderland*) is an 1865 English novel by Lewis Carroll, a mathematics professor at Oxford University. It details the story of a young girl named Alice who falls through a rabbit hole into a fantasy world of anthropomorphic creatures.
+*Alice's Adventures in Wonderland* (commonly *Alice in Wonderland*) is an 1865 English novel by Lewis Carroll, a mathematics professor at Oxford University. It details the story of a young girl named Alice who falls through a rabbit hole into a fantasy world of anthropomorphic creatures.
 
   
 <head>
@@ -35,14 +35,15 @@ Here at 607 Press we believe in open access! All of our volunteers work to solve
 </body>
 
   
-  ### Our Available eBooks
- 
-  #### *Alice's Adventures in Wonderland* 
-
-  *Alice's Adventures in Wonderland* (commonly *Alice in Wonderland*) is an 1865 English novel by Lewis Carroll, a mathematics professor at Oxford University. It details the story of a young girl named Alice who falls through a rabbit hole into a fantasy world of anthropomorphic creatures.
+### Our Available eBooks
 
 
-   <a href="https://lmgtfy.app/?q=How+to+Download+an+Ebook" class="button">Download the Ebook</a>
+#### *Alice's Adventures in Wonderland* 
+
+*Alice's Adventures in Wonderland* (commonly *Alice in Wonderland*) is an 1865 English novel by Lewis Carroll, a mathematics professor at Oxford University. It details the story of a young girl named Alice who falls through a rabbit hole into a fantasy world of anthropomorphic creatures.
+
+
+<a href="https://lmgtfy.app/?q=How+to+Download+an+Ebook" class="button">Download the Ebook</a>
 
 </body>
 
