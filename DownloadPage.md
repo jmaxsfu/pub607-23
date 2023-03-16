@@ -18,7 +18,7 @@ Here at 607 Press we believe in open access! All of our volunteers work to solve
   border: none;
   color: white;
   font-weight: bold;
-  padding: 20px 40px;
+  padding: 15px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -47,6 +47,9 @@ Here at 607 Press we believe in open access! All of our volunteers work to solve
 
 
 
+<br>
+<br>
+<br>
 
 
 
