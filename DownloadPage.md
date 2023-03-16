@@ -4,7 +4,7 @@ Here at 607 Press we believe in open access! All of our volunteers work to solve
 
 <br>
 
-### Our Available AudioBooks
+## Our Available AudioBooks
 
 #### *Alice's Adventures in Wonderland* 
 
@@ -35,7 +35,7 @@ Here at 607 Press we believe in open access! All of our volunteers work to solve
 </body>
 
   
-### Our Available eBooks
+## Our Available eBooks
 
 
 #### *Alice's Adventures in Wonderland* 
@@ -45,8 +45,6 @@ Here at 607 Press we believe in open access! All of our volunteers work to solve
 
 <a href="https://lmgtfy.app/?q=How+to+Download+an+Ebook" class="button">Download the Ebook</a>
 
-</body>
-
 
 
 
@@ -54,5 +52,3 @@ Here at 607 Press we believe in open access! All of our volunteers work to solve
 
 
 *Simon Fraser University respectfully acknowledges the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh Úxwumixw (Squamish), səl̓ilw̓ətaʔɬ (Tsleil-Waututh), q̓íc̓əy̓ (Katzie), kʷikʷəƛ̓əm (Kwikwetlem), Qayqayt, Kwantlen, Semiahmoo and Tsawwassen peoples on whose unceded traditional territories our three campuses reside.*
-
-</p>
