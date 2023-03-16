@@ -44,7 +44,7 @@ As of April 2021, it's at https://s3.amazonaws.com/BBSW-download/BBEdit_13.5.6_U
 
 	1 2 3
 
-	Horatio
+	Horatio, orange, apple 
 
 	\t (tab)
 
