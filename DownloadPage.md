@@ -1,11 +1,8 @@
-
-<p style="text-align:center;">
-
-
 # 607 Press 
 
 Here at 607 Press we believe in open access! All of our volunteers work to solve the accessibility challenges faced with ebooks and audiobooks by creating files that are simple and free from errors. All files are free for download, and we encourage suggestions from our community. What book would you like to see next?
 
+<p style="text-align:center">
 
   ### Our Available AudioBooks
 
