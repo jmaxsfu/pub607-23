@@ -1,5 +1,9 @@
 # About 'Regular Expression' parsing
 
+<https://sfu.zoom.us/rec/share/MTOW47PN7MEEdM49m4xlHVe0ccJpfrNUSJajmrxMqdF5TiwH6FA40wjy59ELkw5r.RlMZAlbpwW2aYkQr> 
+
+Passcode: wv=GWB
+
 Regular expressions refers to a tiny formal language for **describing** and then acting on (searching, replacing, etc.) regular patterns in text. It is the basis for all sorts of machine parsing of text.
 
 aka "RegEx" or "regex," variously pronounced.
