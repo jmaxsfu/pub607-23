@@ -1,0 +1,8 @@
+span.caps {text-transform: uppercase;}
+
+code {font-family: Times; font-style: italic; margin-left: 1em}
+
+.verse { white-space: pre-wrap;
+	font-family: Times; font-style: italic; 
+	margin-left: 1em; color: blue;
+}
