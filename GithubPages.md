@@ -25,6 +25,6 @@ We're assuming that you have an account on [Github](https://github.com/) and on 
 
 #### Tips
  - The repository must be *public* to add pages
- - You must be the owner of the repository to turn pages on
- - Make sure you have a README.md document; this will act as your home page for your "website"
- - If you add HTML into your .md files, they usually won't "preview" very well, but it doesn't mean the HTML doesn't work. Open them in Pages view to really see how it works! 
+ - You must be the **owner** of the repository to turn pages on (i.e., collaborators can't make this change)
+ - Make sure you have a README.md document; this will act as your "home page" for your "website"
+ - If you add HTML into your .md files, they usually won't "preview" very well when looking at Github itself, Open them in Github Pages view to really see how it works! 
