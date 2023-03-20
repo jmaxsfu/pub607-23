@@ -53,11 +53,11 @@ There are many different ways to do this, but here's one to start with
 
 - [Shure SM58](#shure-sm58) dynamic mics (courtesy of the FCAT Dean's office)
 
-- [CAD GXL1200](#cad-gxl1200 condenser mic) (John's)
+- [CAD GXL1200](#cad-gxl1200) condenser mic  (John's)
 
-- [Zoom H4n Pro](#zoom-h4n-pro portable recorders) (courtesy of the FCAT Dean's office)
+- [Zoom H4n Pro](#zoom-h4n-pro) portable recorders (courtesy of the FCAT Dean's office)
 
-- [M-Audio FastTrack Pro](#m-audio-fasttrack-pro USB Audio Interface) (John's)
+- [M-Audio FastTrack Pro](#m-audio-fasttrack-pro) USB Audio Interface (John's)
 
 - [XLR Cables](#xlr-cables) to connect microphones (from the Dean's office + 1 from John)
 
@@ -99,7 +99,7 @@ A dynamic mic like this works by being quite close to the sound source (see "eat
 
 It occurs to me that an SM58, being a very up-close-and-personal microphone, is probably a terrific **germ vector**. Best option would be for these mics to be used by one person only. But you can clean them pretty easily -- you can simply unscrew the ball-shaped cage and wash it. Here's the manufacturer's instructions: <https://service.shure.com/s/article/how-should-i-clean-my-microphone?language=en_US>
 
-### CAD GXL1200 Condenser Mic
+### CAD GXL1200
 
 John brought this one in. You can use it just like you do the Shure SM58, and see if you like the results. It's quite a bit more sensitive than an SM58, so it needs to be placed farther away if you're recording your voice -- a good trick is to mount it on a stand and point it at your forehead instead of your mouth, to avoid "Popping your Ps." (look it up!)
 
@@ -117,7 +117,7 @@ These are OLD tech, from the 1950s or 1960s, but they work really well. They are
 What they do really well is provide a "balanced" electrical signal that is very impervious to interference (that is, noise) even over very long cables (up to 200 ft). They are also really tough and durable.
 
 
-### Zoom H4n Pro Recorder
+### Zoom H4n Pro 
 
 The **Zoom H4n Pro** recorders are Hannah McGregor's favourite tool. They are a nice small handheld device with a LOT of flexibility. You can optionally plug up to two external mics into each one, but they have their own pair of stereo condenser mics built right in.
 
@@ -129,9 +129,9 @@ Alternatively, you can also use the H4n Pro as a direct, live **USB Audio Interf
 
 
 
-### FastTrack Pro Audio Interface
+### FastTrack Pro 
 
-John brought in this old (2012 or so?) USB interface. 
+John brought in this old (2012 or so?) USB Audio Interface. 
 
 ![FastTrack Pro Audio USB Interface](img/fasttrack.jpg "FastTrack Pro Audio USB Interface")
 
