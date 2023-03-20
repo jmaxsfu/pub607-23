@@ -51,17 +51,17 @@ There are many different ways to do this, but here's one to start with
 
 ## Some Gear We Have On Hand
 
-- **Shure SM58** dynamic mics (courtesy of the FCAT Dean's office)
+- [Shure SM58](#shure-sm58) dynamic mics (courtesy of the FCAT Dean's office)
 
-- **CAD GXL1200** condenser mic (John's)
+- [CAD GXL1200](#cad-gxl1200) condenser mic (John's)
 
-- **Zoom H4n Pro** portable recorders (courtesy of the FCAT Dean's office)
+- [Zoom H4n Pro](#zoom-h4n-pro) portable recorders (courtesy of the FCAT Dean's office)
 
-- **M-Audio FastTrack Pro** USB Audio Interface (John's)
+- [M-Audio FastTrack Pro](#m-audio-fasttrack-pro) USB Audio Interface (John's)
 
-- **XLR Cables** to connect microphones (from the Dean's office + 1 from John)
+- [XLR Cables](#xlr-cables) to connect microphones (from the Dean's office + 1 from John)
 
-- **USB Cables** – USB Mini cables to connect Zoom H4n Pros to computer; also a USB B CABLE to connect the FastTrack Pro interface
+- [USB Cables](#usb-cables) – USB Mini cables to connect Zoom H4n Pros to computer; also a USB B CABLE to connect the FastTrack Pro interface
 
 See below for details on these bits.
 
@@ -93,7 +93,7 @@ Because a condenser mic needs electricity, there has to be a source. Both the Zo
 
 The **SM58** is the classic "ice cream cone" style mic, as used by Aretha Franklin, among a few zillion other artists over the years :-) The '58 is the gold standard for a "dynamic microphone. They started making these in *1966* and they are still the standard. That's good technology!
 
-![Shure SM58 mic](https://upload.wikimedia.org/wikipedia/commons/0/07/Shure_sm58.jpg)
+![Shure SM58 dynamic microphone](https://upload.wikimedia.org/wikipedia/commons/0/07/Shure_sm58.jpg "Shure SM58 dynamic microphone")
 
 A dynamic mic like this works by being quite close to the sound source (see "eat the mic" but don't actually do that; a couple or three inches away is better). Close miking results in that warm, intimate sound (like in *Witch Please*). Also, Aretha Franklin belting out *Respect*. A dynamic mic also helps minimize ambient or background sounds. 
 
@@ -103,7 +103,7 @@ It occurs to me that an SM58, being a very up-close-and-personal microphone, is 
 
 John brought this one in. You can use it just like you do the Shure SM58, and see if you like the results. It's quite a bit more sensitive than an SM58, so it needs to be placed farther away if you're recording your voice -- a good trick is to mount it on a stand and point it at your forehead instead of your mouth, to avoid "Popping your Ps." (look it up!)
 
-![CAD GXL1200 mic](img/CAD.jpg)
+![CAD GXL condenser microphoneCAD GXL1200 mic](img/CAD.jpg "CAD GXL condenser microphone")
 
 A condenser mic like this requires 48volts of "Phantom power" -- which is available on both the Zoom recorder and the FastTrack Pro Audio Interface... you just switch that on and it works. This mic probably also will benefit from a stand of some sort.
 
@@ -112,7 +112,7 @@ A condenser mic like this requires 48volts of "Phantom power" -- which is availa
 
 These are OLD tech, from the 1950s or 1960s, but they work really well. They are big, heavy, well-insulated three-wire cables with a big chunky three-pin connector. These have been the standard connection for microphones (and various other professional audio things) for 60+ years. 
 
-![XLR cable](img/xlr.jpg)
+![Three-pin XLR audio cable](img/xlr.jpg "Three-pin XLR audio cable")
 
 What they do really well is provide a "balanced" electrical signal that is very impervious to interference (that is, noise) even over very long cables (up to 200 ft). They are also really tough and durable.
 
@@ -133,7 +133,7 @@ Alternatively, you can also use the H4n Pro as a direct, live **USB Audio Interf
 
 John brought in this old (2012 or so?) USB interface. 
 
-![FastTrack Pro Audio USB Interface](img/fasttrack.jpg)
+![FastTrack Pro Audio USB Interface](img/fasttrack.jpg "FastTrack Pro Audio USB Interface")
 
 This does PART of what the Zoom H4n does -- it takes **XLR Cables** or regular old 1/4" audio cords and converts the incoming analogue signal into digital signals which then go via USB to your computer. This is the fundamental little box that makes digital audio recording possible. In professional studios, they have very big fancy ones; this is a very simple, cheap one. It has two inputs.  The Zoom recorder can also be used as a direct Audio Interface like this as well.
 
