@@ -53,11 +53,11 @@ There are many different ways to do this, but here's one to start with
 
 - [Shure SM58](#shure-sm58) dynamic mics (courtesy of the FCAT Dean's office)
 
-- [CAD GXL1200](#cad-gxl1200) condenser mic (John's)
+- [CAD GXL1200](#cad-gxl1200 condenser mic) (John's)
 
-- [Zoom H4n Pro](#zoom-h4n-pro) portable recorders (courtesy of the FCAT Dean's office)
+- [Zoom H4n Pro](#zoom-h4n-pro portable recorders) (courtesy of the FCAT Dean's office)
 
-- [M-Audio FastTrack Pro](#m-audio-fasttrack-pro) USB Audio Interface (John's)
+- [M-Audio FastTrack Pro](#m-audio-fasttrack-pro USB Audio Interface) (John's)
 
 - [XLR Cables](#xlr-cables) to connect microphones (from the Dean's office + 1 from John)
 
