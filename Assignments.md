@@ -13,9 +13,13 @@ Acquire a 'manuscript' to work with. We recommend going to Project Gutenberg (pi
 Draft by March 23  
 Complete by April 6
  
-Thinking backwards, consider what happens when you have two files ready for your users. How will your reader access your eBook and Audiobook? Create a simple page in [Github](Github.md) so that users can access your files. This will help you become more comfortable with Markdown while considering the user experience of distributing the book. 
+Thinking backwards, consider what happens when you have two files ready for your users. How will your reader access your eBook and Audiobook? Create a simple page in [Github](Github.md) so that users can access your files. This will help you become more comfortable with Markdown while considering the user experience of distributing the book. Start by turning [GitHub Pages](GithubPages.md) on.
 
 This page should include at least two levels of headings, a link to the download files for each file (this can be any link until your files are prepared) and information for the potential readers. What can you do with Markdown? What do you need HTML for? Will you add CSS?
+
+[Here is a quickly created sample page](https://jmaxsfu.github.io/pub607-23/DownloadPage.html) (made in class today)
+[Here are some sample buttons](https://shaleeta.github.io/ShaleetaSite/DownloadButtons.html) (I'll add the codes underneath)
+
 
 
 ## Deliverable 3: Produce an accessible ebook

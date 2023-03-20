@@ -12,4 +12,4 @@ Teammates should now, using Github Desktop, "Add a repo" using the "Clone reposi
 
 Use the repository folder on your laptop to host your ebooks for your ebook and audiobook, and whatever working files -- Commit and Push your changes 
 
-In the Settings, turn on "Github pages" which will make your repo readable like a website.
+In the Settings, turn on [Github pages](GithubPAges.md) which will make your repo readable like a website.
