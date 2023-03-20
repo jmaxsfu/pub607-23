@@ -61,7 +61,7 @@ There are many different ways to do this, but here's one to start with
 
 - [XLR Cables](#xlr-cables) to connect microphones (from the Dean's office + 1 from John)
 
-- [USB Cables](#usb-cables) – USB Mini cables to connect Zoom H4n Pros to computer; also a USB B CABLE to connect the FastTrack Pro interface
+- USB Cables – USB "Mini" cables to connect Zoom H4n Pros to computer; also a USB "B" cable to connect the FastTrack Pro interface
 
 See below for details on these bits.
 
@@ -129,7 +129,7 @@ Alternatively, you can also use the H4n Pro as a direct, live **USB Audio Interf
 
 
 
-### FastTrack Pro 
+### M-Audio FastTrack Pro 
 
 John brought in this old (2012 or so?) USB Audio Interface. 
 
