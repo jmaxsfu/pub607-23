@@ -8,6 +8,8 @@ Despite differences in user interface design and fine details of functionality, 
 
 The fundamental metaphor is a *magical tape recorder*. Like a tape recorder, the basic unit is the **track** -- that is, recording one audio source alongside others -- and in DAW software you can both *hear* and *see* it, via a depiction of the actual waveform.
 
+![Audacity interface, showing the waveform for a recording of a passing motorcycle](img/audacity.png "Audacity interface, showing the waveform for a recording of a passing motorcycle")
+
 You can have multiple tracks, either recorded simultaneously or layered one at a time. If you were recording music, you would almost certainly record multiple tracks; for an audiobook with a single narrator, you might need only one or two.
 
 The software has "tape-deck" controls like Play, Pause, Record, Rewind, Advance. You can also move around in a track by positioning the "play head" (usually a vertical line) in the waveform by using your mouse or trackpad.
