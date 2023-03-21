@@ -144,6 +144,6 @@ This does PART of what the Zoom H4n does -- it takes **XLR Cables** or regular o
 
 [^1]: If you are going to record directly to your laptop, using an Audio Interface or the Zoom recorder as an Audio Interface, there is a step you need to take first: Quit your web browser. Better still, restart your laptop and don't open your web browser. Your laptop works hard. You should probably give it some thanks. Seriously, it's doing all sorts of things in the background so that you don't have to think about them. One of those things is managing the audio system. When you're running your browser (through which things like Zoom and Teams and YouTube happen), your browser grabs hold of tons of resources for audio, which ensures that Teams and Zoom and YouTube operate properly. 
 
-      But if you then start up Audacity or another DAW, you might find that your laptop can't give it the resources that it needs, because Chrome (or whatever) has already claimed them. So, to get a decend recording environment, you need to shut down the Web browser first. Or, as I suggest, restart the computer, and don't start up any software except for the DAW... then it will work nicely.
-      
+      But if you then start up Audacity or another DAW, you might find that your laptop can't give it the resources that it needs, because Chrome (or whatever) has already claimed them. So, to get a decent recording environment, you need to shut down the Web browser first. Or, as I suggest, restart the computer, and don't start up any software except for the DAW... then it will work nicely.
+
 
