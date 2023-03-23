@@ -4,7 +4,7 @@ author: Lewis Carroll
 language: en-US
 publisher: MPub
 rights: PD
-...
+---
 
 
 # I: Down the Rabbit-Hole
