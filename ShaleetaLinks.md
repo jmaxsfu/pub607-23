@@ -23,3 +23,11 @@ Hello, 607! Below you'll find a list of some of the helpful resources and backgr
 - [Four Shades of Gray: The Amazon Kindle Platform](https://direct.mit.edu/books/oa-monograph/5298/Four-Shades-of-GrayThe-Amazon-Kindle-Platform)
 - [Aaron Swartz was an interesting fellow](https://en.wikipedia.org/wiki/Aaron_Swartz) 
 - [BC Sans Font](https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/bc-sans) is a British Columbia Open Font based on Googles [Noto Font](https://blog.google/outreach-initiatives/accessibility/preserving-endangered-languages-noto-fonts/), which was created to include as many languages as possible. This is a great font choice when including characters from other languages!
+
+
+### March 23, Final ePub3 Class
+
+ - [This documentation goes over the discussion about adding alt text to covers.](cover.xhtml)  
+     - [Another bit of information about adding alt text to cover files](http://kb.daisy.org/publishing/docs/epub/cover.html)
+     -  
+
