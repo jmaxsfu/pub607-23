@@ -1,0 +1,63 @@
+---
+title:
+- type: main
+  text: The Memoirs of the Conquistador Bernal Diaz del Castillo, Vol 1
+- type: subtitle
+  text: Written by Himself Containing a True and Full Account of the Discovery and Conquest of Mexico and New Spain.
+creator:
+- role: author
+  text: Bernal Diaz del Castillo
+contributor:
+- role: translator
+  text: John Ingram Lockhart
+contributor:
+- role: editor
+  text: Julia Miller
+contributor:
+- role: editor
+  text: Jane Hyland
+contributor:
+- role: editor
+  text: Online Distributed Proofreading Team at http://www.pgdp.net
+identifier:
+- scheme: Project Gutenberg
+  text: EBook#32474
+publisher:  Project Gutenberg 
+date:  May 21, 2010 
+rights:  Project Gutenberg License; see http://www.gutenberg.net 
+cover-image: cover.png
+stylesheet: house.css
+...
+
+#Frontmatter
+
+The Project Gutenberg EBook of The Memoirs of the Conquistador Bernal Diaz
+del Castillo, Vol 1 (of 2), by Bernal Diaz del Castillo
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+
+
+THE MEMOIRS OF THE CONQUISTADOR BERNAL DIAZ DEL CASTILLO
+
+Written By Himself
+
+Containing A True And Full Account Of The Discovery And Conquest  Of  Mexico And New Spain  
+
+Translated From The Original Spanish By  John Ingram Lockhart, F.R.A.S.  Author Of "Attica and Athens"  
+
+IN TWO VOLUMES  
+
+VOL. I
+
+London  
+
+J. Hatchard and Son, 187, Piccadilly  
+
+MDCCCXLIV.
+
+
+C. and J. Adlard, Printers, Bartholemew Close.
