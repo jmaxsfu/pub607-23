@@ -20,6 +20,8 @@ This page should include at least two levels of headings, a link to the download
 [Here is a quickly created sample page](https://jmaxsfu.github.io/pub607-23/DownloadPage.html) (made in class today)
 [Here are some sample buttons](https://shaleeta.github.io/ShaleetaSite/DownloadButtons.html) (I'll add the codes underneath)
 
+How do you hand it in? You don't. Just show Shaleeta on Thursday!
+
 
 
 ## Deliverable 3: Produce an accessible ebook

@@ -1,0 +1,12 @@
+
+
+---
+title: The Book
+author: Shaleeta Harrison   
+language: en-US
+publisher: Book Publisher
+rights: All Rights Reserved
+cover-image: img.jpg
+stylesheet: pretty.css
+
+...
