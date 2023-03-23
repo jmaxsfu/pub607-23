@@ -22,14 +22,9 @@ p + p {
     line-height: 1.3em;
 }
 
-.letters { 
+.verse { 
     margin-top: 1em; padding: 1em;
-    whitespace: pre; 
     background-color: lightyellow; 
     font-style: italic;
 }
 
-.letters p {
-    margin-top: 1em; margin-bottom: 0;
-    text-indent: 0;
-}
