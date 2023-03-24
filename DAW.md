@@ -2,7 +2,7 @@
 
 ## Audio Editing Software
 
-In this course we are going to centre our discussion on a tool called **Audacity**, which is a robust, venerable, open-source audio editor. It's been around for years, does all the important things, and it's kind of ugly. If you need something different, you are encouraged to branch out to prettier, fancier, less open-source tools like GarageBand, Adobe Audition, Logic, Hindenburg, and so on. A noteworthy alternative is **Reaper**, which claims to have an accessibility layer for the visually impaired.
+In this course we are going to centre our discussion on a tool called **Audacity**, which is a robust, venerable, open-source audio editor. It's been around for years, does all the important things, and it's kind of ugly. If you need something different, you are encouraged to branch out to prettier, fancier, less open-source tools like GarageBand, Adobe Audition, Logic, Hindenburg, and so on. 
 
 Despite differences in user interface design and fine details of functionality, all of these tools work more or less the same way.
 
