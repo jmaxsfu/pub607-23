@@ -24,17 +24,18 @@ Please also see the [Guide to Using Audacity for Beginners](Audacity.md) written
 
 ## How to Record: A basic method
 
-There are many different ways to do this, but here's one to start with
+There are many different ways to do this, but here's one to start with. For your reference, we also wrote a more detailed how-to for [getting started with the Zoom recorder](ZoomRecording.md). The little user manual for the Zoom is also very good.
 
-1. Plug an SM58 mic into the Zoom recorder using an XLR cable.
 
-2. Plug headphones into the Zoom recorder so you can "monitor" what you're recording. **This is important** -- if you can hear what you're recording while you are recording it, it will save you hours of lost time.
+1. Plug headphones into the Zoom recorder so you can "monitor" what you're recording. **This is important** -- if you can hear what you're recording while you are recording it, it will save you hours of lost time.
 
-3. Find a **quiet** room. You need to listen to your recording environment with headphones on; that will make the ambient noise much more apparent.
+2. Find a **quiet** room. You need to listen to your recording environment with headphones on; that will make the ambient noise much more apparent.
 
-4. Say "test, 1, 2, 3" over and over again while fiddling with the level controls on the Zoom to ensure that you are getting a strong signal that does not "clip" or overload, especially on the letter "P". Pay attention to how close you are to the microphone!
+3. Plug an SM58 mic into the Zoom recorder using an XLR cable and select the external mic setting on the Zoom.
 
-5. Press record and say your piece. End the recording and save it with a name you'll remember in step 7 below. Listen to the playback. Does it sound alright? If not, go back to Step 2.
+4. Say "test, 1, 2, 3" over and over again while fiddling with the "rec level" controls on the Zoom to ensure that you are getting a strong signal that does not "clip" or overload, especially on the letter "P". Pay attention to how close you are to the microphone!
+
+5. Start recording and say your piece. End the recording and save it with a filename you'll remember in step 7 below. Listen to the playback. Does it sound alright? If not, go back to Step 2.
 
 6. Plug the Zoom recorder into your laptop with a USB cable. Plug your headphones into your laptop too.
 
