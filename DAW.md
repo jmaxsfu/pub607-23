@@ -128,7 +128,7 @@ Unfortunately, the so-called "Universal" Serial Bus isn't *quite* standardized. 
 
 ![USB connector types - not to scale](https://upload.wikimedia.org/wikipedia/commons/4/43/USB_2.0_and_3.0_connectors.png)
 
-A-type is the usual flat ones you see everywhere. C-type are the ones on your new laptop, and your Android phone. "Mini" is common on cameras and audio devices (like the Zoom recorder) because it's pretty robust when it's likely to get knocked around. B-type is a less common plug for cameras and audio devices. *Adapters! Where are my adapters???*
+A-type is the usual flat ones you see everywhere. C-type are the ones on your new laptop, and your Android phone. "Mini" is common on cameras and audio devices (like the Zoom recorder) because it's pretty robust when it's likely to get knocked around. B-type is a less common plug for cameras and audio devices. And then there's that iPhone plug that's different again. *Adapters! Where are my adapters???*
 
 
 ### Zoom H4n Pro 
