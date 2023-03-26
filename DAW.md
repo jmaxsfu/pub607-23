@@ -150,6 +150,8 @@ This does PART of what the Zoom H4n does -- it takes **XLR Cables** or regular o
 
 ### USB Cables
 
-Unfortunately, the so-called "Universal" Serial Bus isn't *quite* standardized. There are a lot of different connectors, which keeps the cable vendors in the black forever.
+Unfortunately, the so-called "Universal" Serial Bus isn't *quite* standardized. There are a lot of different connectors, which keeps the cable vendors profitable forever.
 
 ![USB connector types - not to scale](https://upload.wikimedia.org/wikipedia/commons/4/43/USB_2.0_and_3.0_connectors.png)
+
+A-type is the usual flat ones you see everywhere. C-type are the ones on your new laptop, and your Android phone. "Mini" is common on cameras and audio devices (like the Zoom recorder) because it's pretty robust when it's likely to get knocked around. B-type is a less common plug for cameras and audio devices. *Adapters! Where are my adapters???*
