@@ -65,7 +65,7 @@ There are many variations on this process. You can also record direct to your co
 
 - [XLR Cables](#xlr-cables) to connect microphones (from the Dean's office + 1 from John)
 
-- USB Cables – USB "Mini" cables to connect Zoom H4n Pros to computer; also a USB "B" cable to connect the FastTrack Pro interface
+- [USB Cables](#usb-cables) – USB "Mini" cables to connect Zoom H4n Pros to computer; also a USB "B" cable to connect the FastTrack Pro interface
 
 See below for details on these bits.
 
@@ -148,3 +148,8 @@ This does PART of what the Zoom H4n does -- it takes **XLR Cables** or regular o
       But if you then start up Audacity or another DAW, you might find that your laptop can't give it the resources that it needs, because Chrome (or whatever) has already claimed them. So, to get a decent recording environment, you need to shut down the Web browser first. Or, as I suggest, restart the computer, and don't start up any software except for the DAW... then it will work nicely.
 
 
+### USB Cables
+
+Unfortunately, the so-called "Universal" Serial Bus isn't *quite* standardized. There are a lot of different connectors, which keeps the cable vendors in the black forever.
+
+![USB connector types - not to scale](https://upload.wikimedia.org/wikipedia/commons/4/43/USB_2.0_and_3.0_connectors.png)
