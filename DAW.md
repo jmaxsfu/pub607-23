@@ -12,7 +12,7 @@ The fundamental metaphor is a *magical tape recorder*. Like a tape recorder, the
 
 You can have multiple tracks, either recorded simultaneously or layered one at a time. If you were recording music, you would almost certainly record multiple tracks; for an audiobook with a single narrator, you might need only one or two.
 
-The software has "tape-deck" controls like Play, Pause, Record, Rewind, Advance. You can also move around in a track by positioning the "play head" (usually a vertical line) in the waveform by using your mouse or trackpad.
+The software has "tape-deck" controls like Play, Pause, Record, Rewind. You can also move around in a track by positioning the "play head" (usually a vertical line) in the waveform by using your mouse or trackpad.
 
 The magic of digital media comes when, in a track, you can *select*, *cut*, *copy*, and *paste* just like in any other software. This makes editing, trimming, and remixing audio a little bit like editing text.
 
