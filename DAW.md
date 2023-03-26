@@ -59,13 +59,15 @@ There are many variations on this process. You can also record direct to your co
 
 - [CAD GXL1200](#cad-gxl1200) condenser mic  (John's)
 
+- [XLR Cables](#xlr-cables) to connect microphones (from the Dean's office + 1 from John)
+
+- [USB Cables](#usb-cables) – USB "Mini" cables to connect Zoom H4n Pros to computer; also a USB "B" cable to connect the FastTrack Pro interface
+
 - [Zoom H4n Pro](#zoom-h4n-pro) portable recorders (courtesy of the FCAT Dean's office)
 
 - [M-Audio FastTrack Pro](#m-audio-fasttrack-pro) USB Audio Interface (John's)
 
-- [XLR Cables](#xlr-cables) to connect microphones (from the Dean's office + 1 from John)
 
-- [USB Cables](#usb-cables) – USB "Mini" cables to connect Zoom H4n Pros to computer; also a USB "B" cable to connect the FastTrack Pro interface
 
 See below for details on these bits.
 
@@ -120,6 +122,14 @@ These are OLD tech, from the 1950s, but they work really well. They are big, hea
 
 What they do really well is provide a "balanced" electrical signal that is very impervious to interference (that is, noise) even over very long cables (up to 200 ft). They are also really tough and durable.
 
+### USB Cables
+
+Unfortunately, the so-called "Universal" Serial Bus isn't *quite* standardized. There are a lot of different connectors, which keeps the cable vendors profitable forever.
+
+![USB connector types - not to scale](https://upload.wikimedia.org/wikipedia/commons/4/43/USB_2.0_and_3.0_connectors.png)
+
+A-type is the usual flat ones you see everywhere. C-type are the ones on your new laptop, and your Android phone. "Mini" is common on cameras and audio devices (like the Zoom recorder) because it's pretty robust when it's likely to get knocked around. B-type is a less common plug for cameras and audio devices. *Adapters! Where are my adapters???*
+
 
 ### Zoom H4n Pro 
 
@@ -143,15 +153,8 @@ This does PART of what the Zoom H4n does -- it takes **XLR Cables** or regular o
 
 
 
-[^1]: If you are going to record directly to your laptop, using an Audio Interface or the Zoom recorder as an Audio Interface, there is a step you need to take first: Quit your web browser. Better still, restart your laptop and don't open your web browser. Your laptop works hard. You should probably give it some thanks. Seriously, it's doing all sorts of things in the background so that you don't have to think about them. One of those things is managing the audio system. When you're running your browser (through which things like Zoom and Teams and YouTube happen), your browser grabs hold of tons of resources for audio, which ensures that Teams and Zoom and YouTube operate properly. 
+[^1]: If you are going to record directly to your laptop, using an dedicated USB **Audio Interface** or set up the Zoom recorder as an Audio Interface, there is a step you definitely need to take first: Quit your web browser. Better still, restart your laptop and don't open your web browser. Your laptop works hard. You should probably give it some thanks. Seriously, it's doing all sorts of things in the background so that you don't have to think about them. One of those things is managing the audio system. When you're running your browser (through which things like Zoom and Teams and YouTube happen), your browser grabs hold of tons of resources for audio, which ensures that Teams and Zoom and YouTube operate properly. 
 
-      But if you then start up Audacity or another DAW, you might find that your laptop can't give it the resources that it needs, because Chrome (or whatever) has already claimed them. So, to get a decent recording environment, you need to shut down the Web browser first. Or, as I suggest, restart the computer, and don't start up any software except for the DAW... then it will work nicely.
+      But if you then start up Audacity or another DAW, you might find that your laptop can't give it the resources that it needs, because Chrome (or whatever) has already claimed them. So, to get a decent recording environment, you need to **shut down the Web browser first.** Or, as I suggest, restart the computer, and don't start up any software except for the DAW... then it will work nicely.
 
 
-### USB Cables
-
-Unfortunately, the so-called "Universal" Serial Bus isn't *quite* standardized. There are a lot of different connectors, which keeps the cable vendors profitable forever.
-
-![USB connector types - not to scale](https://upload.wikimedia.org/wikipedia/commons/4/43/USB_2.0_and_3.0_connectors.png)
-
-A-type is the usual flat ones you see everywhere. C-type are the ones on your new laptop, and your Android phone. "Mini" is common on cameras and audio devices (like the Zoom recorder) because it's pretty robust when it's likely to get knocked around. B-type is a less common plug for cameras and audio devices. *Adapters! Where are my adapters???*
