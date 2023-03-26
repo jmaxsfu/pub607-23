@@ -135,6 +135,8 @@ A-type is the usual flat ones you see everywhere. C-type are the ones on your ne
 
 The **Zoom H4n Pro** recorders are Hannah McGregor's favourite tool. They are a nice small handheld device with a LOT of flexibility. You can optionally plug up to two external mics into each one, but they have their own pair of stereo condenser mics built right in.
 
+![Zoom H4n Pro portable recorder](img/zoom.jpg "Zoom H4n Pro portable recorder")
+
 The Zoom recorders record onto an SD Card which can record hours of audio.
 
 They run on two AA batteries, so you can take them to the beach and capture the sounds of seagulls -- and then dump the recording back to your computer by connecting one of the USB Cables.
